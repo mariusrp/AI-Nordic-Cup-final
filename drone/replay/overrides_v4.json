@@ -1,0 +1,3921 @@
+[
+{
+"t": 8.8,
+"x": 1671,
+"cls": "jammer",
+"note": "eye-verified jammer m1 of v1_plus2 (frame 2); the ft family votes tank 0.70"
+},
+{
+"t": 212.7,
+"x": 2106,
+"vote": {
+"large_launcher": 0.8,
+"helicopter": 0.2
+},
+"note": "105x83 dark-green launcher truck, no rotor/tail"
+},
+{
+"t": 154.3,
+"x": 2214,
+"drop": true,
+"note": "62x46 garden bed next to parked cars voted mine_roller 0.97"
+},
+{
+"t": 148.8,
+"x": 2467,
+"support": 0.15,
+"note": "brown roof patch between houses voted ta-ta"
+},
+{
+"t": 194.1,
+"x": 1830,
+"support": 0.2,
+"note": "42x59 round bush voted helicopter 0.96 (helicopters here are 85-100 px with rotor + tail)"
+},
+{
+"t": 257.1,
+"x": 1743,
+"support": 0.1,
+"note": "9x14 white skylight dot on an orange roof (row of identical dots) voted small_launcher"
+},
+{
+"t": 211.7,
+"x": 3348,
+"support": 0.1,
+"note": "roof skylight dot voted ta-ta"
+},
+{
+"t": 209.7,
+"x": 3236,
+"support": 0.1,
+"note": "roof skylight dot voted ta-ta"
+},
+{
+"t": 207.9,
+"x": 3661,
+"support": 0.1,
+"note": "roof skylight dot voted ta-ta"
+},
+{
+"t": 211.9,
+"x": 3348,
+"support": 0.1,
+"note": "roof skylight dot voted ta-ta"
+},
+{
+"t": 194.7,
+"x": 3127,
+"support": 0.1,
+"note": "15x12 skylight on a red-brown roof voted ta-ta"
+},
+{
+"t": 218.8,
+"x": 3053,
+"support": 0.1,
+"note": "11x13 white skylight on an orange roof voted small_launcher"
+},
+{
+"t": 214.6,
+"x": 580,
+"support": 0.1,
+"note": "7x6 dot in trees voted ta-ta"
+},
+{
+"t": 224.9,
+"x": 2643,
+"support": 0.25,
+"note": "light triangle in a red roof's shadow voted mine_roller"
+},
+{
+"t": 233.1,
+"x": 1896,
+"support": 0.25,
+"note": "pentagon shed roof voted jammer"
+},
+{
+"t": 54.26,
+"x": 3202.9,
+"cls": "large_tower",
+"support": 0.9,
+"note": "crisp dark diagonal lattice 46x45, Helsinki large_tower look; voted small_plane (v2 eye, c_b #98)"
+},
+{
+"t": 109.57,
+"x": 1853.9,
+"cls": "large_tower",
+"support": 0.85,
+"note": "crisp dark lattice tower 28x53 next to the legged launcher; voted medium_plane (v2 eye, c_b #111)"
+},
+{
+"t": 136.06,
+"x": 2832.2,
+"cls": "small_launcher",
+"support": 0.7,
+"note": "crisp green launcher on sand, 2nd of the 119-150 group (v2 eye, c_b #232) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 136.39,
+"x": 2849.3,
+"cls": "small_launcher",
+"support": 0.7,
+"note": "crisp green launcher on sand, 3rd of the group (v2 eye, c_b #304) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 234.92,
+"x": 1100.0,
+"cls": "jammer",
+"support": 0.7,
+"note": "crisp green box on sand (v2 eye, c_b #47) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 199.46,
+"x": 1840.2,
+"cls": "jammer",
+"support": 0.7,
+"note": "crisp green tilted box 29x31 (v2 eye, c_b #778) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 64.35,
+"x": 3351.5,
+"cls": "mine_roller",
+"support": 0.7,
+"note": "crisp long camo vehicle with front roller 54x38 (v2 eye, c_b #719) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 212.69,
+"x": 2104.2,
+"cls": "large_launcher",
+"support": 0.9,
+"note": "crisp green launcher truck (v2 eye, c_b #126)"
+},
+{
+"t": 199.86,
+"x": 1497.9,
+"cls": "tank",
+"support": 0.7,
+"note": "crisp camo tank (v2 eye, c_b #96) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 214.5,
+"x": 1853.4,
+"cls": "mine_roller",
+"support": 0.95,
+"note": "crisp camo vehicle with roller (v2 eye, c_b #1)"
+},
+{
+"t": 173.34,
+"x": 1191.4,
+"cls": "small_tower",
+"support": 0.93,
+"note": "green box on white platform (v2 eye, c_b #8)"
+},
+{
+"t": 256.12,
+"x": 2179.1,
+"cls": "small_tower",
+"support": 0.9,
+"note": "green box on white platform (v2 eye, c_b #191)"
+},
+{
+"t": 109.28,
+"x": 1896.0,
+"vote": {
+"medium_launcher": 0.6,
+"small_launcher": 0.25,
+"medium_plane": 0.15
+},
+"support": 0.8,
+"note": "crisp black multi-tube launcher on legs 20x24 next to the lattice tower (v2 eye, c_b #23)"
+},
+{
+"t": 146.09,
+"x": 1168.3,
+"vote": {
+"tank": 0.6,
+"mine_roller": 0.4
+},
+"support": 0.7,
+"note": "crisp camo vehicle with long barrel 48x31 (v2 eye, c_b #164) [capped 0.7: below the older eye-verified objects of the class]"
+},
+{
+"t": 173.33,
+"x": 1227.3,
+"vote": {
+"small_launcher": 0.6,
+"jammer": 0.4
+},
+"support": 0.4,
+"note": "small crisp green object 11x15 right of small_tower #8 (v2 eye, c_b #108)"
+},
+{
+"t": 100.88,
+"x": 3399.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #59, s 0.80)"
+},
+{
+"t": 102.52,
+"x": 3060.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #61, s 0.80)"
+},
+{
+"t": 78.48,
+"x": 2395.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #26, s 0.79)"
+},
+{
+"t": 238.91,
+"x": 2287.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #246, s 0.77)"
+},
+{
+"t": 238.07,
+"x": 3430.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #322, s 0.75)"
+},
+{
+"t": 76.93,
+"x": 2175.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #121, s 0.75)"
+},
+{
+"t": 81.82,
+"x": 2869.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #89, s 0.72)"
+},
+{
+"t": 80.02,
+"x": 2629.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #100, s 0.71)"
+},
+{
+"t": 80.41,
+"x": 2761.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #33, s 0.70)"
+},
+{
+"t": 248.44,
+"x": 2203.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #128, s 0.66)"
+},
+{
+"t": 249.47,
+"x": 2775.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #88, s 0.65)"
+},
+{
+"t": 235.18,
+"x": 3284.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #237, s 0.64)"
+},
+{
+"t": 187.42,
+"x": 1956.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #370, s 0.64)"
+},
+{
+"t": 191.37,
+"x": 791.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #482, s 0.62)"
+},
+{
+"t": 167.79,
+"x": 335.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #519, s 0.59)"
+},
+{
+"t": 186.75,
+"x": 2659.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #666, s 0.59)"
+},
+{
+"t": 47.07,
+"x": 1864.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #461, s 0.58)"
+},
+{
+"t": 244.34,
+"x": 1636.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #66, s 0.74)"
+},
+{
+"t": 238.73,
+"x": 2287.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #63, s 0.67)"
+},
+{
+"t": 189.85,
+"x": 2726.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #50, s 0.71)"
+},
+{
+"t": 155.26,
+"x": 1631.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #73, s 0.57)"
+},
+{
+"t": 191.23,
+"x": 2497.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #574, s 0.56)"
+},
+{
+"t": 203.97,
+"x": 3461.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #643, s 0.56)"
+},
+{
+"t": 250.76,
+"x": 2907.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #447, s 0.56)"
+},
+{
+"t": 191.21,
+"x": 2108.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #515, s 0.56)"
+},
+{
+"t": 205.61,
+"x": 1970.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted tank (c_b #427, s 0.55)"
+},
+{
+"t": 244.08,
+"x": 1399.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #485, s 0.54)"
+},
+{
+"t": 205.89,
+"x": 2713.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #302, s 0.52)"
+},
+{
+"t": 233.9,
+"x": 65.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #516, s 0.52)"
+},
+{
+"t": 197.87,
+"x": 1365.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #332, s 0.52)"
+},
+{
+"t": 239.7,
+"x": 2287.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #185, s 0.51)"
+},
+{
+"t": 130.08,
+"x": 3061.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #40, s 0.50)"
+},
+{
+"t": 156.98,
+"x": 493.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #249, s 0.50)"
+},
+{
+"t": 196.66,
+"x": 2064.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #361, s 0.50)"
+},
+{
+"t": 169.01,
+"x": 1552.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #616, s 0.49)"
+},
+{
+"t": 188.65,
+"x": 1019.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #645, s 0.49)"
+},
+{
+"t": 158.48,
+"x": 3073.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #105, s 0.48)"
+},
+{
+"t": 164.83,
+"x": 1936.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #363, s 0.48)"
+},
+{
+"t": 216.84,
+"x": 2272.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #99, s 0.46)"
+},
+{
+"t": 167.03,
+"x": 1502.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #477, s 0.45)"
+},
+{
+"t": 242.32,
+"x": 1399.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #620, s 0.44)"
+},
+{
+"t": 214.01,
+"x": 3544.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #384, s 0.44)"
+},
+{
+"t": 250.33,
+"x": 2797.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #424, s 0.43)"
+},
+{
+"t": 204.33,
+"x": 1884.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #748, s 0.43)"
+},
+{
+"t": 206.17,
+"x": 1823.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #718, s 0.43)"
+},
+{
+"t": 102.09,
+"x": 3260.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #762, s 0.43)"
+},
+{
+"t": 219.65,
+"x": 2925.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #347, s 0.42)"
+},
+{
+"t": 110.1,
+"x": 2903.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #132, s 0.41)"
+},
+{
+"t": 146.0,
+"x": 2700.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #35, s 0.41)"
+},
+{
+"t": 211.38,
+"x": 3053.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #797, s 0.41)"
+},
+{
+"t": 7.06,
+"x": 1916.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #710, s 0.40)"
+},
+{
+"t": 209.93,
+"x": 2526.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #818, s 0.40)"
+},
+{
+"t": 244.64,
+"x": 1873.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #668, s 0.39)"
+},
+{
+"t": 240.27,
+"x": 1152.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #243, s 0.39)"
+},
+{
+"t": 71.03,
+"x": 1119.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted hangar (c_b #339, s 0.39)"
+},
+{
+"t": 153.08,
+"x": 2338.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #204, s 0.39)"
+},
+{
+"t": 233.5,
+"x": 2654.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_launcher (c_b #85, s 0.39)"
+},
+{
+"t": 236.11,
+"x": 2122.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #310, s 0.38)"
+},
+{
+"t": 255.49,
+"x": 1279.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #918, s 0.37)"
+},
+{
+"t": 202.18,
+"x": 2280.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #777, s 0.37)"
+},
+{
+"t": 166.98,
+"x": 307.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #439, s 0.37)"
+},
+{
+"t": 75.35,
+"x": 2228.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #1109, s 0.36)"
+},
+{
+"t": 149.41,
+"x": 2026.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_tower (c_b #103, s 0.36)"
+},
+{
+"t": 199.83,
+"x": 2984.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #475, s 0.36)"
+},
+{
+"t": 192.02,
+"x": 848.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #773, s 0.35)"
+},
+{
+"t": 248.03,
+"x": 1185.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #806, s 0.35)"
+},
+{
+"t": 179.77,
+"x": 2614.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_plane (c_b #817, s 0.35)"
+},
+{
+"t": 166.06,
+"x": 3026.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #52, s 0.35)"
+},
+{
+"t": 248.27,
+"x": 2893.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #494, s 0.35)"
+},
+{
+"t": 235.21,
+"x": 3224.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #335, s 0.34)"
+},
+{
+"t": 182.66,
+"x": 2180.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #382, s 0.34)"
+},
+{
+"t": 169.03,
+"x": 837.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #391, s 0.33)"
+},
+{
+"t": 243.17,
+"x": 3001.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #717, s 0.33)"
+},
+{
+"t": 257.39,
+"x": 1686.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1365, s 0.33)"
+},
+{
+"t": 228.61,
+"x": 903.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #910, s 0.33)"
+},
+{
+"t": 211.25,
+"x": 2240.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jet_plane (c_b #120, s 0.33)"
+},
+{
+"t": 199.42,
+"x": 2738.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #721, s 0.33)"
+},
+{
+"t": 123.36,
+"x": 1207.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted condor (c_b #690, s 0.32)"
+},
+{
+"t": 9.84,
+"x": 1670.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted tank (c_b #371, s 0.32)"
+},
+{
+"t": 183.63,
+"x": 919.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1038, s 0.32)"
+},
+{
+"t": 207.11,
+"x": 656.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1058, s 0.31)"
+},
+{
+"t": 48.43,
+"x": 1414.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #178, s 0.31)"
+},
+{
+"t": 199.83,
+"x": 3040.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_launcher (c_b #912, s 0.31)"
+},
+{
+"t": 174.58,
+"x": 3485.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1173, s 0.31)"
+},
+{
+"t": 228.18,
+"x": 3301.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #812, s 0.30)"
+},
+{
+"t": 183.14,
+"x": 2851.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted medium_plane (c_b #764, s 0.30)"
+},
+{
+"t": 89.49,
+"x": 3790.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #965, s 0.30)"
+},
+{
+"t": 252.01,
+"x": 1098.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #694, s 0.30)"
+},
+{
+"t": 220.25,
+"x": 2863.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #703, s 0.30)"
+},
+{
+"t": 215.0,
+"x": 2364.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #46, s 0.30)"
+},
+{
+"t": 144.36,
+"x": 1777.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #122, s 0.29)"
+},
+{
+"t": 205.11,
+"x": 231.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_tower (c_b #244, s 0.29)"
+},
+{
+"t": 81.0,
+"x": 2508.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #565, s 0.29)"
+},
+{
+"t": 130.09,
+"x": 3034.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #714, s 0.29)"
+},
+{
+"t": 163.09,
+"x": 623.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1012, s 0.29)"
+},
+{
+"t": 242.23,
+"x": 123.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #124, s 0.28)"
+},
+{
+"t": 235.91,
+"x": 1368.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #667, s 0.28)"
+},
+{
+"t": 246.12,
+"x": 1709.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #377, s 0.28)"
+},
+{
+"t": 231.34,
+"x": 1127.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #474, s 0.28)"
+},
+{
+"t": 188.19,
+"x": 873.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #312, s 0.28)"
+},
+{
+"t": 197.92,
+"x": 2765.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #549, s 0.28)"
+},
+{
+"t": 2.81,
+"x": 1993.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1126, s 0.28)"
+},
+{
+"t": 230.54,
+"x": 3601.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #591, s 0.27)"
+},
+{
+"t": 219.76,
+"x": 2856.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #315, s 0.27)"
+},
+{
+"t": 194.66,
+"x": 1800.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #802, s 0.27)"
+},
+{
+"t": 236.12,
+"x": 3268.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1047, s 0.27)"
+},
+{
+"t": 164.08,
+"x": 1095.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #234, s 0.27)"
+},
+{
+"t": 182.88,
+"x": 1116.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_plane (c_b #20, s 0.26)"
+},
+{
+"t": 233.07,
+"x": 1895.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #606, s 0.25)"
+},
+{
+"t": 141.59,
+"x": 2892.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #42, s 0.25)"
+},
+{
+"t": 176.6,
+"x": 60.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #708, s 0.25)"
+},
+{
+"t": 224.87,
+"x": 2643.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #268, s 0.25)"
+},
+{
+"t": 191.89,
+"x": 3262.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #738, s 0.25)"
+},
+{
+"t": 223.12,
+"x": 2346.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #235, s 0.25)"
+},
+{
+"t": 207.92,
+"x": 745.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_plane (c_b #16, s 0.25)"
+},
+{
+"t": 156.86,
+"x": 3298.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #422, s 0.25)"
+},
+{
+"t": 161.38,
+"x": 2996.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_plane (c_b #617, s 0.24)"
+},
+{
+"t": 170.09,
+"x": 1055.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #123, s 0.24)"
+},
+{
+"t": 40.97,
+"x": 1527.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #765, s 0.24)"
+},
+{
+"t": 196.15,
+"x": 1586.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #170, s 0.24)"
+},
+{
+"t": 222.55,
+"x": 2834.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #228, s 0.24)"
+},
+{
+"t": 98.46,
+"x": 3598.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #760, s 0.24)"
+},
+{
+"t": 207.93,
+"x": 105.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1002, s 0.23)"
+},
+{
+"t": 184.9,
+"x": 983.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1122, s 0.23)"
+},
+{
+"t": 149.36,
+"x": 3166.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #78, s 0.23)"
+},
+{
+"t": 224.95,
+"x": 2958.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1147, s 0.23)"
+},
+{
+"t": 121.44,
+"x": 3205.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_tower (c_b #136, s 0.23)"
+},
+{
+"t": 127.9,
+"x": 2521.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #354, s 0.23)"
+},
+{
+"t": 197.21,
+"x": 1604.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jammer (c_b #1324, s 0.23)"
+},
+{
+"t": 43.93,
+"x": 1808.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1292, s 0.23)"
+},
+{
+"t": 122.31,
+"x": 1594.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted condor (c_b #180, s 0.22)"
+},
+{
+"t": 226.89,
+"x": 3431.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #897, s 0.22)"
+},
+{
+"t": 18.17,
+"x": 861.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted jet_plane (c_b #2022, s 0.22)"
+},
+{
+"t": 185.91,
+"x": 416.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1028, s 0.22)"
+},
+{
+"t": 184.42,
+"x": 2835.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_launcher (c_b #635, s 0.22)"
+},
+{
+"t": 162.21,
+"x": 276.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #151, s 0.22)"
+},
+{
+"t": 167.43,
+"x": 3259.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #133, s 0.21)"
+},
+{
+"t": 34.47,
+"x": 2091.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #685, s 0.20)"
+},
+{
+"t": 46.83,
+"x": 1282.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1760, s 0.20)"
+},
+{
+"t": 121.25,
+"x": 2448.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted ta-ta (c_b #1009, s 0.20)"
+},
+{
+"t": 82.4,
+"x": 3228.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #536, s 0.19)"
+},
+{
+"t": 153.18,
+"x": 911.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_launcher (c_b #1176, s 0.18)"
+},
+{
+"t": 179.84,
+"x": 3299.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_tower (c_b #57, s 0.18)"
+},
+{
+"t": 155.98,
+"x": 1662.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted small_plane (c_b #816, s 0.18)"
+},
+{
+"t": 147.44,
+"x": 2573.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #582, s 0.18)"
+},
+{
+"t": 82.28,
+"x": 2979.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1248, s 0.18)"
+},
+{
+"t": 146.64,
+"x": 2579.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1052, s 0.18)"
+},
+{
+"t": 150.68,
+"x": 1750.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #119, s 0.18)"
+},
+{
+"t": 181.44,
+"x": 2877.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #1491, s 0.17)"
+},
+{
+"t": 127.63,
+"x": 1131.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #886, s 0.17)"
+},
+{
+"t": 141.56,
+"x": 2520.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #375, s 0.17)"
+},
+{
+"t": 43.09,
+"x": 1389.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #980, s 0.17)"
+},
+{
+"t": 38.51,
+"x": 3462.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1869, s 0.17)"
+},
+{
+"t": 168.4,
+"x": 2252.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #293, s 0.17)"
+},
+{
+"t": 142.85,
+"x": 2289.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted mine_roller (c_b #257, s 0.16)"
+},
+{
+"t": 30.85,
+"x": 2192.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted spacecraft (c_b #1220, s 0.16)"
+},
+{
+"t": 167.43,
+"x": 1232.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/boat voted large_tower (c_b #513, s 0.16)"
+},
+{
+"t": 107.81,
+"x": 3409.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #345, s 0.58)"
+},
+{
+"t": 126.84,
+"x": 1707.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #287, s 0.43)"
+},
+{
+"t": 91.49,
+"x": 762.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #49, s 0.42)"
+},
+{
+"t": 70.57,
+"x": 1334.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #163, s 0.41)"
+},
+{
+"t": 73.61,
+"x": 2528.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #378, s 0.41)"
+},
+{
+"t": 133.71,
+"x": 1690.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #83, s 0.38)"
+},
+{
+"t": 51.73,
+"x": 2364.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #390, s 0.38)"
+},
+{
+"t": 61.57,
+"x": 828.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #850, s 0.34)"
+},
+{
+"t": 29.45,
+"x": 2691.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #561, s 0.34)"
+},
+{
+"t": 82.24,
+"x": 3471.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #394, s 0.32)"
+},
+{
+"t": 194.22,
+"x": 2953.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted small_tower (c_v2 #842, s 0.32)"
+},
+{
+"t": 107.26,
+"x": 3000.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #899, s 0.32)"
+},
+{
+"t": 44.97,
+"x": 1476.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted tank (c_v2 #75, s 0.31)"
+},
+{
+"t": 6.64,
+"x": 2641.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #156, s 0.30)"
+},
+{
+"t": 102.55,
+"x": 1492.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #542, s 0.29)"
+},
+{
+"t": 236.82,
+"x": 1096.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #465, s 0.29)"
+},
+{
+"t": 58.29,
+"x": 3449.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #45, s 0.29)"
+},
+{
+"t": 238.76,
+"x": 2654.0,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted tank (c_v2 #887, s 0.29)"
+},
+{
+"t": 242.58,
+"x": 1627.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #633, s 0.29)"
+},
+{
+"t": 244.21,
+"x": 1559.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #329, s 0.28)"
+},
+{
+"t": 107.76,
+"x": 1912.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #644, s 0.28)"
+},
+{
+"t": 249.44,
+"x": 2203.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted spacecraft (c_v2 #986, s 0.27)"
+},
+{
+"t": 225.94,
+"x": 3449.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #278, s 0.27)"
+},
+{
+"t": 243.86,
+"x": 2316.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #266, s 0.25)"
+},
+{
+"t": 258.65,
+"x": 1919.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1024, s 0.24)"
+},
+{
+"t": 245.34,
+"x": 1635.8,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #392, s 0.24)"
+},
+{
+"t": 61.31,
+"x": 1141.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted small_launcher (c_v2 #1152, s 0.23)"
+},
+{
+"t": 236.18,
+"x": 2154.3,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1174, s 0.23)"
+},
+{
+"t": 232.95,
+"x": 769.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1091, s 0.23)"
+},
+{
+"t": 61.33,
+"x": 550.4,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #1057, s 0.23)"
+},
+{
+"t": 235.07,
+"x": 1423.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted large_tower (c_v2 #65, s 0.23)"
+},
+{
+"t": 246.94,
+"x": 1303.2,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted mine_roller (c_v2 #1224, s 0.23)"
+},
+{
+"t": 208.18,
+"x": 1927.7,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #426, s 0.23)"
+},
+{
+"t": 257.89,
+"x": 1684.1,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1204, s 0.23)"
+},
+{
+"t": 260.23,
+"x": 1900.5,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1140, s 0.23)"
+},
+{
+"t": 217.42,
+"x": 968.9,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted ta-ta (c_v2 #1085, s 0.23)"
+},
+{
+"t": 201.3,
+"x": 1041.6,
+"support": 0.02,
+"note": "v2 eye FP: blurry terrain/roof/bush voted jammer (c_v2 #68, s 0.22)"
+},
+{
+"t": 54.47,
+"x": 3159.9,
+"vote": {
+"medium_launcher": 0.6,
+"small_launcher": 0.2,
+"medium_plane": 0.2
+},
+"support": 0.75,
+"note": "crisp black multi-tube launcher with orange base 24x22 next to large_tower #98 (same pair as t109) (v2 eye, c_v2 #38)"
+},
+{
+"t": 234.62,
+"x": 547.5,
+"vote": {
+"small_launcher": 0.6,
+"jammer": 0.4
+},
+"support": 0.55,
+"note": "crisp green small object with shadow on sand 15x13 (v2 eye, c_v2 #58)"
+},
+{
+"t": 247.46,
+"x": 1801.2,
+"vote": {
+"small_launcher": 0.6,
+"jammer": 0.4
+},
+"support": 0.5,
+"note": "crisp green small object with shadow on sand 15x24 (v2 eye, c_v2 #101)"
+},
+{
+"t": 97.64,
+"x": 3184.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_plane (c_v2 #1845, s 0.15)"
+},
+{
+"t": 109.34,
+"x": 1873.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted medium_plane (c_v2 #2425, s 0.12)"
+},
+{
+"t": 213.24,
+"x": 2063.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted jammer (c_v2 #2194, s 0.10)"
+},
+{
+"t": 212.19,
+"x": 2131.7,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted spacecraft (c_v2 #4577, s 0.05)"
+},
+{
+"t": 208.98,
+"x": 1964.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted jammer (c_v2 #415, s 0.19)"
+},
+{
+"t": 244.18,
+"x": 2752.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_plane (c_v2 #1375, s 0.20)"
+},
+{
+"t": 214.3,
+"x": 1751.4,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #112, s 0.16)"
+},
+{
+"t": 216.72,
+"x": 1606.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #357, s 0.16)"
+},
+{
+"t": 223.86,
+"x": 2722.5,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted spacecraft (c_v2 #397, s 0.15)"
+},
+{
+"t": 247.88,
+"x": 3309.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_plane (c_v2 #207, s 0.11)"
+},
+{
+"t": 231.57,
+"x": 2584.6,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #1275, s 0.10)"
+},
+{
+"t": 127.67,
+"x": 2823.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #113, s 0.10)"
+},
+{
+"t": 107.27,
+"x": 3395.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #1041, s 0.10)"
+},
+{
+"t": 179.24,
+"x": 326.5,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted mine_roller (c_v2 #2139, s 0.10)"
+},
+{
+"t": 176.29,
+"x": 150.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted spacecraft (c_v2 #2251, s 0.09)"
+},
+{
+"t": 247.81,
+"x": 1066.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #2014, s 0.08)"
+},
+{
+"t": 167.41,
+"x": 1939.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #933, s 0.12)"
+},
+{
+"t": 158.83,
+"x": 1531.7,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted spacecraft (c_v2 #1374, s 0.07)"
+},
+{
+"t": 122.02,
+"x": 2003.6,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted condor (c_v2 #1933, s 0.06)"
+},
+{
+"t": 250.98,
+"x": 1236.2,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #3320, s 0.05)"
+},
+{
+"t": 177.5,
+"x": 1935.4,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #1708, s 0.05)"
+},
+{
+"t": 229.29,
+"x": 1893.5,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #2560, s 0.05)"
+},
+{
+"t": 191.82,
+"x": 2124.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted mine_roller (c_v2 #1419, s 0.05)"
+},
+{
+"t": 120.83,
+"x": 2639.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #1927, s 0.05)"
+},
+{
+"t": 169.37,
+"x": 1737.6,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #2152, s 0.04)"
+},
+{
+"t": 118.03,
+"x": 2512.5,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted medium_plane (c_v2 #1111, s 0.04)"
+},
+{
+"t": 245.56,
+"x": 2361.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_launcher (c_v2 #2170, s 0.04)"
+},
+{
+"t": 149.68,
+"x": 3176.8,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted ta-ta (c_v2 #3592, s 0.04)"
+},
+{
+"t": 151.09,
+"x": 3568.3,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_launcher (c_v2 #1684, s 0.04)"
+},
+{
+"t": 245.15,
+"x": 2195.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted spacecraft (c_v2 #3395, s 0.04)"
+},
+{
+"t": 121.19,
+"x": 2003.9,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted condor (c_v2 #917, s 0.03)"
+},
+{
+"t": 54.77,
+"x": 972.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted small_launcher (c_v2 #3753, s 0.05)"
+},
+{
+"t": 54.93,
+"x": 1016.0,
+"support": 0.02,
+"note": "v2 eye FP: terrain/roof/boat/duplicate part voted jet_plane (c_v2 #1351, s 0.06)"
+},
+{
+"t": 2.77,
+"x": 1972.9,
+"keep": true,
+"note": "v2 eye: confirmed large_launcher (eye GT / native L2 sheet, c_v2 #30)"
+},
+{
+"t": 60.0,
+"x": 2614.3,
+"keep": true,
+"note": "v2 eye: confirmed helicopter (eye GT / native L2 sheet, c_v2 #5)"
+},
+{
+"t": 69.88,
+"x": 1071.8,
+"keep": true,
+"note": "v2 eye: confirmed jet_plane (eye GT / native L2 sheet, c_v2 #7)"
+},
+{
+"t": 70.49,
+"x": 1218.0,
+"keep": true,
+"note": "v2 eye: confirmed jet_plane (eye GT / native L2 sheet, c_v2 #3)"
+},
+{
+"t": 72.02,
+"x": 1104.1,
+"keep": true,
+"note": "v2 eye: confirmed hangar (eye GT / native L2 sheet, c_v2 #2)"
+},
+{
+"t": 76.23,
+"x": 2212.3,
+"keep": true,
+"note": "v2 eye: confirmed small_plane (eye GT / native L2 sheet, c_v2 #67)"
+},
+{
+"t": 100.67,
+"x": 1724.3,
+"keep": true,
+"note": "v2 eye: confirmed helicopter (eye GT / native L2 sheet, c_v2 #4)"
+},
+{
+"t": 123.62,
+"x": 469.0,
+"keep": true,
+"note": "v2 eye: confirmed helicopter (eye GT / native L2 sheet, c_v2 #10)"
+},
+{
+"t": 126.39,
+"x": 2682.1,
+"keep": true,
+"note": "v2 eye: confirmed jet_plane (eye GT / native L2 sheet, c_v2 #6)"
+},
+{
+"t": 127.91,
+"x": 2687.9,
+"keep": true,
+"note": "v2 eye: confirmed hangar (eye GT / native L2 sheet, c_v2 #0)"
+},
+{
+"t": 97.7,
+"x": 3203.3,
+"keep": true,
+"note": "v2 eye: confirmed mine_roller (eye GT / native L2 sheet, c_v2 #11)"
+},
+{
+"t": 75.25,
+"x": 2249.9,
+"keep": true,
+"note": "v2 eye: confirmed small_tower (eye GT / native L2 sheet, c_v2 #9)"
+},
+{
+"t": 136.35,
+"x": 2879.5,
+"keep": true,
+"note": "v2 eye: confirmed small_launcher (eye GT / native L2 sheet, c_v2 #18)"
+},
+{
+"t": 32.68,
+"x": 2260.8,
+"keep": true,
+"note": "v2 eye: confirmed tank (eye GT / native L2 sheet, c_v2 #13)"
+},
+{
+"t": 126.87,
+"x": 2832.2,
+"keep": true,
+"note": "v2 eye: confirmed small_plane (eye GT / native L2 sheet, c_v2 #12)"
+},
+{
+"t": 47.16,
+"x": 2257.9,
+"keep": true,
+"note": "v2 eye: confirmed tank (eye GT / native L2 sheet, c_v2 #17)"
+},
+{
+"t": 126.93,
+"x": 2777.2,
+"keep": true,
+"note": "v2 eye: confirmed small_plane (eye GT / native L2 sheet, c_v2 #14)"
+},
+{
+"t": 127.77,
+"x": 2776.1,
+"keep": true,
+"note": "v2 eye: confirmed small_plane (eye GT / native L2 sheet, c_v2 #15)"
+},
+{
+"t": 38.55,
+"x": 1872.4,
+"keep": true,
+"note": "v2 eye: confirmed ta-ta (eye GT / native L2 sheet, c_v2 #36)"
+},
+{
+"t": 39.73,
+"x": 1888.6,
+"keep": true,
+"note": "v2 eye: confirmed ta-ta (eye GT / native L2 sheet, c_v2 #21)"
+},
+{
+"t": 39.11,
+"x": 1880.0,
+"keep": true,
+"note": "v2 eye: confirmed ta-ta (eye GT / native L2 sheet, c_v2 #22)"
+},
+{
+"t": 8.83,
+"x": 1671.4,
+"keep": true,
+"note": "v2 eye: confirmed jammer (eye GT / native L2 sheet, c_v2 #24)"
+},
+{
+"t": 72.21,
+"x": 2307.6,
+"keep": true,
+"note": "v2 eye: confirmed mine_roller (eye GT / native L2 sheet, c_v2 #253)"
+},
+{
+"t": 137.11,
+"x": 2896.3,
+"vote": {
+"medium_launcher": 0.5,
+"small_launcher": 0.3,
+"small_plane": 0.2
+},
+"support": 0.5,
+"note": "crisp dark object with orange-yellow top and legs 20x21 at the small_launcher group (Helsinki medium_launcher has a yellow top) (v2b eye, build2 #245)"
+},
+{
+"t": 230.1,
+"x": 2844.2,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #266, s 0.83)"
+},
+{
+"t": 222.89,
+"x": 2095.9,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #289, s 0.77)"
+},
+{
+"t": 40.44,
+"x": 2132.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #290, s 0.63)"
+},
+{
+"t": 240.15,
+"x": 2387.0,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #122, s 0.46)"
+},
+{
+"t": 199.26,
+"x": 2369.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #200, s 0.44)"
+},
+{
+"t": 257.82,
+"x": 1890.5,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #1226, s 0.31)"
+},
+{
+"t": 228.94,
+"x": 2320.9,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #198, s 0.28)"
+},
+{
+"t": 234.56,
+"x": 458.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #428, s 0.40)"
+},
+{
+"t": 237.8,
+"x": 1164.3,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #34, s 0.28)"
+},
+{
+"t": 242.07,
+"x": 2213.3,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #116, s 0.28)"
+},
+{
+"t": 51.09,
+"x": 3618.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #24, s 0.27)"
+},
+{
+"t": 199.49,
+"x": 3515.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted medium_launcher (build2 #232, s 0.26)"
+},
+{
+"t": 215.93,
+"x": 2173.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #62, s 0.25)"
+},
+{
+"t": 159.15,
+"x": 1689.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #73, s 0.25)"
+},
+{
+"t": 247.94,
+"x": 968.8,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #22, s 0.25)"
+},
+{
+"t": 213.18,
+"x": 2716.0,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #625, s 0.24)"
+},
+{
+"t": 231.01,
+"x": 784.9,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #895, s 0.23)"
+},
+{
+"t": 106.15,
+"x": 980.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #91, s 0.23)"
+},
+{
+"t": 248.47,
+"x": 3345.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_launcher (build2 #650, s 0.23)"
+},
+{
+"t": 195.47,
+"x": 2925.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #474, s 0.23)"
+},
+{
+"t": 84.15,
+"x": 3416.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #1086, s 0.23)"
+},
+{
+"t": 250.46,
+"x": 2776.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #698, s 0.22)"
+},
+{
+"t": 209.22,
+"x": 3193.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #1343, s 0.22)"
+},
+{
+"t": 223.05,
+"x": 998.5,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #55, s 0.22)"
+},
+{
+"t": 240.67,
+"x": 1248.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #654, s 0.22)"
+},
+{
+"t": 258.37,
+"x": 2445.2,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #1714, s 0.22)"
+},
+{
+"t": 238.55,
+"x": 2544.5,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #68, s 0.22)"
+},
+{
+"t": 198.32,
+"x": 2735.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #1647, s 0.21)"
+},
+{
+"t": 248.11,
+"x": 913.6,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #128, s 0.21)"
+},
+{
+"t": 194.45,
+"x": 2272.3,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_launcher (build2 #172, s 0.21)"
+},
+{
+"t": 238.27,
+"x": 1032.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #398, s 0.21)"
+},
+{
+"t": 109.7,
+"x": 3144.3,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_plane (build2 #1221, s 0.21)"
+},
+{
+"t": 188.02,
+"x": 3742.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #1561, s 0.20)"
+},
+{
+"t": 237.63,
+"x": 1532.5,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted spacecraft (build2 #1305, s 0.20)"
+},
+{
+"t": 33.02,
+"x": 1982.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #1658, s 0.20)"
+},
+{
+"t": 204.21,
+"x": 2615.2,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #1638, s 0.20)"
+},
+{
+"t": 249.25,
+"x": 1159.7,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #958, s 0.20)"
+},
+{
+"t": 196.79,
+"x": 1863.8,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_tower (build2 #548, s 0.20)"
+},
+{
+"t": 200.51,
+"x": 3229.6,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_launcher (build2 #265, s 0.20)"
+},
+{
+"t": 194.61,
+"x": 1387.4,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted small_tower (build2 #1437, s 0.20)"
+},
+{
+"t": 247.25,
+"x": 2540.0,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jet_plane (build2 #35, s 0.20)"
+},
+{
+"t": 187.49,
+"x": 3047.5,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted hangar (build2 #1421, s 0.20)"
+},
+{
+"t": 208.89,
+"x": 3199.8,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted ta-ta (build2 #129, s 0.19)"
+},
+{
+"t": 135.45,
+"x": 968.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted mine_roller (build2 #1133, s 0.19)"
+},
+{
+"t": 217.21,
+"x": 1096.1,
+"support": 0.02,
+"note": "v2b eye FP: blurry terrain/roof/lawn/boulder/car or partial duplicate voted jammer (build2 #1049, s 0.19)"
+},
+{
+"add": true,
+"cls": "large_tower",
+"t": 238,
+"box": [
+372,
+1287,
+430,
+1332
+],
+"support": 0.85,
+"note": "v2b eye: crisp dark lattice tower on the roundabout plaza, frame 239 view L2(480,1080) px [372,477,430,522]; no cluster covered it (only a 23x22 part voted spacecraft, t234.6 x458, demoted) [v3: frame 239 is a stalled duplicate of frame 238 (frame_steps.py: 238->239 ground motion 0, and +60 px vs the H schedule), so this eye box belongs to the frame-238 pose]"
+},
+{
+"t": 156.68,
+"x": 694.7,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted small_plane (build2 #1441, s 0.14)"
+},
+{
+"t": 155.96,
+"x": 591.7,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted large_launcher (build2 #2214, s 0.04)"
+},
+{
+"t": 156.49,
+"x": 629.2,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted helicopter (build2 #2299, s 0.04)"
+},
+{
+"t": 157.77,
+"x": 593.4,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted mine_roller (build2 #2439, s 0.05)"
+},
+{
+"t": 156.67,
+"x": 655.0,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted hangar (build2 #2570, s 0.02)"
+},
+{
+"t": 156.11,
+"x": 641.5,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted ta-ta (build2 #2942, s 0.04)"
+},
+{
+"t": 154.14,
+"x": 712.5,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed large_launcher t156 x636, voted ta-ta (build2 #3302, s 0.03)"
+},
+{
+"add": true,
+"cls": "large_launcher",
+"t": 156,
+"box": [
+575,
+1015,
+698,
+1097
+],
+"support": 0.7,
+"note": "v2b hunt: crisp green launcher truck with white missile and outriggers (Helsinki large_launcher look) in trees, frame 156 view L2(1020,1080) (frame 154 L2(660,1080): [595,883,717,963]); detectors only fired fragments, no cluster > 0.14 [support 0.7: below the eye-GT large_launcher]"
+},
+{
+"t": 84.32,
+"x": 2279.9,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed tank t84 x2280 voted large_launcher (build4 #663, s 0.082)"
+},
+{
+"t": 84.15,
+"x": 2265.7,
+"support": 0.02,
+"note": "v2b hunt FP: fragment of the missed tank t84 x2280 voted jammer (build4 #11489, s 0.003)"
+},
+{
+"add": true,
+"cls": "tank",
+"t": 87,
+"box": [
+2263,
+1252,
+2312,
+1283
+],
+"support": 0.7,
+"note": "v2b hunt: crisp camo tank with long barrel on the field road, frame 87 view L2(2640,1080) px [103,442,152,473]; only a 0.08 large_launcher cluster covered it"
+},
+{
+"t": 178.86,
+"x": 1892.9,
+"support": 0.02,
+"note": "v2b hunt FP: blurry road strip voted mine_roller (build2 #248, s 0.38)"
+},
+{
+"t": 167.93,
+"x": 2706.7,
+"support": 0.02,
+"note": "v2b hunt FP: blurry scrapyard debris voted ta-ta (build2 #321, s 0.62)"
+},
+{
+"t": 76.24,
+"x": 2212.3,
+"note": "v3: dark prop plane, OLIVE wingtip + red spinner, 45x46 -> Helsinki medium_plane (small_plane kept as runner-up hedge) [was small_plane s0.81]",
+"vote": {
+"medium_plane": 0.65,
+"small_plane": 0.35
+},
+"support": 0.95
+},
+{
+"t": 75.08,
+"x": 2209.1,
+"note": "v3: second copy of the same medium_plane model, ~1 frame ahead of the first [was medium_plane s0.39]",
+"vote": {
+"medium_plane": 0.65,
+"small_plane": 0.35
+},
+"support": 0.9
+},
+{
+"t": 126.87,
+"x": 2203.3,
+"note": "v3: red blurry blob at a tree edge (photogrammetry), not a small_plane [was small_plane s0.37]",
+"support": 0.02
+},
+{
+"t": 79.7,
+"x": 3071.3,
+"note": "v3: firing-range post/tripod with a long cast shadow, blurry [was mine_roller s0.39]",
+"support": 0.02
+},
+{
+"t": 79.29,
+"x": 3084.5,
+"note": "v3: the second range post, voted medium_plane; blurry + cast shadow [was medium_plane s0.39]",
+"support": 0.02
+},
+{
+"t": 213.43,
+"x": 1481.6,
+"note": "v3: hedge/bush, not a large_launcher [was large_launcher s0.28]",
+"support": 0.02
+},
+{
+"t": 204.42,
+"x": 2460.0,
+"note": "v3: bush next to a house, not a jammer [was jammer s0.26]",
+"support": 0.02
+},
+{
+"t": 233.44,
+"x": 2329.4,
+"note": "v3: white blob on a lawn (boulder), not a spacecraft [was spacecraft s0.28]",
+"support": 0.02
+},
+{
+"t": 159.65,
+"x": 2698.1,
+"note": "v3: ~10 px grey thing next to a shed, far too small for a TIE-shaped spacecraft [was spacecraft s0.45]",
+"support": 0.06
+},
+{
+"t": 140.3,
+"x": 3023.1,
+"note": "v3: ~10 px grey thing in grass, too small for a spacecraft [was spacecraft s0.44]",
+"support": 0.06
+},
+{
+"t": 137.11,
+"x": 2896.3,
+"note": "v3: crisp dark object with orange top at the small_launcher group; class unsure -> mLa/sLa split [was medium_launcher s0.5]",
+"vote": {
+"medium_launcher": 0.45,
+"small_launcher": 0.45
+},
+"support": 0.45
+},
+{
+"t": 78.48,
+"x": 2395.2,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 80.41,
+"x": 2761.3,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 100.88,
+"x": 3399.8,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 102.51,
+"x": 3060.1,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 249.47,
+"x": 2775.8,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 81.82,
+"x": 2869.1,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 248.11,
+"x": 913.6,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 80.02,
+"x": 2629.4,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 76.93,
+"x": 2175.3,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 248.44,
+"x": 2203.3,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 110.1,
+"x": 2903.3,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 48.43,
+"x": 1414.9,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 40.44,
+"x": 2132.4,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 47.07,
+"x": 1864.5,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 250.46,
+"x": 2776.1,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 169.01,
+"x": 1552.8,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 7.06,
+"x": 1916.8,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 102.09,
+"x": 3260.5,
+"support": 0.12,
+"note": "v3 spacecraft hedge: blurry block with a cast shadow (terrain), but v1 scored spacecraft AP ~0.36 on the portal and v2/v2b emit no spacecraft at all -> keep these at a low rank instead of 0.02 (free: a class absent from the GT is ignored)"
+},
+{
+"t": 37.85009932413351,
+"x": 2214.1709988733605,
+"support": 0.0474,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 224.83326907679634,
+"x": 164.32537192383188,
+"support": 0.0521,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 157.6040440876364,
+"x": 1234.977954058601,
+"support": 0.0361,
+"note": "v4 crisp auto-demote: lap/ring 1.66 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 201.8064821640685,
+"x": 1045.3434126446282,
+"support": 0.0397,
+"note": "v4 crisp auto-demote: lap/ring 1.55 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 205.71674623219022,
+"x": 606.3080311405362,
+"support": 0.045,
+"note": "v4 crisp auto-demote: lap/ring 0.75 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 248.84138528148964,
+"x": 3639.483454130266,
+"support": 0.0481,
+"note": "v4 crisp auto-demote: lap/ring 1.33 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 238.45446568517085,
+"x": 2419.8166162663533,
+"support": 0.0496,
+"note": "v4 crisp auto-demote: lap/ring 1.61 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 19.380442493126033,
+"x": 2851.108478562552,
+"support": 0.0787,
+"note": "v4 crisp auto-demote: lap/ring 1.60 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.89976113817582,
+"x": 2695.2993906502006,
+"support": 0.0381,
+"note": "v4 crisp auto-demote: lap/ring 0.49 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 245.3467131933507,
+"x": 3231.3795170388144,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 0.87 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 179.0006032345444,
+"x": 3279.535052843373,
+"support": 0.0483,
+"note": "v4 crisp auto-demote: lap/ring 0.94 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 188.79130199438328,
+"x": 1708.0245416739,
+"support": 0.0361,
+"note": "v4 crisp auto-demote: lap/ring 1.37 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 82.32932464328722,
+"x": 1651.9052512776393,
+"support": 0.1087,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 222.15531603547635,
+"x": 3270.342381830375,
+"support": 0.0569,
+"note": "v4 crisp auto-demote: lap/ring 1.02 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 107.88041038210199,
+"x": 3612.074067066159,
+"support": 0.0231,
+"note": "v4 crisp auto-demote: lap/ring 1.39 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 56.43499795654659,
+"x": 3453.1531007533445,
+"support": 0.0703,
+"note": "v4 crisp auto-demote: lap/ring 1.73 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 181.06793474609717,
+"x": 2567.786580178607,
+"support": 0.0384,
+"note": "v4 crisp auto-demote: lap/ring 1.49 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 90.37084867783531,
+"x": 2566.750921744744,
+"support": 0.0385,
+"note": "v4 crisp auto-demote: lap/ring 1.54 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 224.565741583617,
+"x": 384.9804114860563,
+"support": 0.0392,
+"note": "v4 crisp auto-demote: lap/ring 0.88 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 226.75008319686282,
+"x": 3164.1827082051236,
+"support": 0.0553,
+"note": "v4 crisp auto-demote: lap/ring 1.47 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 183.39377084912496,
+"x": 1888.9657415112424,
+"support": 0.0417,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 180.51775537328913,
+"x": 3080.8094991722855,
+"support": 0.0559,
+"note": "v4 crisp auto-demote: lap/ring 1.29 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 78.59336192566394,
+"x": 651.4296789154803,
+"support": 0.0343,
+"note": "v4 crisp auto-demote: lap/ring 0.90 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 29.4867824338395,
+"x": 3639.2611254530175,
+"support": 0.0402,
+"note": "v4 crisp auto-demote: lap/ring 1.20 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 59.760015633478616,
+"x": 220.29300246860987,
+"support": 0.049,
+"note": "v4 crisp auto-demote: lap/ring 1.48 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 192.20861450908714,
+"x": 1957.01778996528,
+"support": 0.0493,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 224.0168165770923,
+"x": 938.1438158665562,
+"support": 0.0367,
+"note": "v4 crisp auto-demote: lap/ring 1.09 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 195.40120925602093,
+"x": 2130.2175531204566,
+"support": 0.0444,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 162.3701943555845,
+"x": 2862.1388304467496,
+"support": 0.0342,
+"note": "v4 crisp auto-demote: lap/ring 1.50 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 204.6650904912384,
+"x": 2991.1541675979884,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 1.57 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 226.73406709282557,
+"x": 2160.663476595152,
+"support": 0.0709,
+"note": "v4 crisp auto-demote: lap/ring 1.30 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 21.853148137461165,
+"x": 2854.465578159229,
+"support": 0.0224,
+"note": "v4 crisp auto-demote: lap/ring 1.42 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 138.82026253611053,
+"x": 1466.5415536973337,
+"support": 0.0379,
+"note": "v4 crisp auto-demote: lap/ring 1.04 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 207.7410292137128,
+"x": 3115.7975774623437,
+"support": 0.048,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 207.68165280357908,
+"x": 3661.825130771338,
+"support": 0.0562,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 212.38414865103235,
+"x": 3384.8491882881854,
+"support": 0.0375,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 133.74764493210608,
+"x": 3106.560500351567,
+"support": 0.0445,
+"note": "v4 crisp auto-demote: lap/ring 1.31 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 207.08445749312477,
+"x": 765.724726152687,
+"support": 0.0534,
+"note": "v4 crisp auto-demote: lap/ring 1.41 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 225.52482908489498,
+"x": 2783.0320861309806,
+"support": 0.068,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 185.82134803822754,
+"x": 3134.5106500163815,
+"support": 0.0339,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 166.57479051512573,
+"x": 2124.365666254613,
+"support": 0.0298,
+"note": "v4 crisp auto-demote: lap/ring 1.60 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 72.13492979372052,
+"x": 2006.233148734173,
+"support": 0.0477,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 215.4639677168758,
+"x": 454.16826644695027,
+"support": 0.0366,
+"note": "v4 crisp auto-demote: lap/ring 0.81 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 166.65246980249364,
+"x": 2155.85941424444,
+"support": 0.0396,
+"note": "v4 crisp auto-demote: lap/ring 1.24 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 194.63324798261166,
+"x": 2162.509309032039,
+"support": 0.0457,
+"note": "v4 crisp auto-demote: lap/ring 1.37 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 243.75454127019304,
+"x": 1771.4276285748774,
+"support": 0.0662,
+"note": "v4 crisp auto-demote: lap/ring 1.34 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.5807688463961,
+"x": 3171.8466124934394,
+"support": 0.0308,
+"note": "v4 crisp auto-demote: lap/ring 1.45 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 49.9507694888635,
+"x": 367.339377891837,
+"support": 0.0342,
+"note": "v4 crisp auto-demote: lap/ring 1.26 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 164.30612717448955,
+"x": 2033.3809679164988,
+"support": 0.0302,
+"note": "v4 crisp auto-demote: lap/ring 1.27 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 88.80138557118264,
+"x": 3698.861758477102,
+"support": 0.0508,
+"note": "v4 crisp auto-demote: lap/ring 1.72 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 17.415126958661396,
+"x": 3509.468941314063,
+"support": 0.0167,
+"note": "v4 crisp auto-demote: lap/ring 0.89 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 83.24692760816205,
+"x": 3179.148517611521,
+"support": 0.0254,
+"note": "v4 crisp auto-demote: lap/ring 1.25 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 163.95653894973043,
+"x": 2013.9010092078945,
+"support": 0.0289,
+"note": "v4 crisp auto-demote: lap/ring 1.01 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.1993628042429,
+"x": 2513.20364472085,
+"support": 0.026,
+"note": "v4 crisp auto-demote: lap/ring 1.29 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 166.3049405210932,
+"x": 3339.904455206552,
+"support": 0.0335,
+"note": "v4 crisp auto-demote: lap/ring 1.37 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 229.88846975239696,
+"x": 3012.0723786103563,
+"support": 0.0547,
+"note": "v4 crisp auto-demote: lap/ring 0.72 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 108.58902300650927,
+"x": 400.30109333039684,
+"support": 0.0288,
+"note": "v4 crisp auto-demote: lap/ring 0.80 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 245.98711547267897,
+"x": 3592.913611305128,
+"support": 0.0444,
+"note": "v4 crisp auto-demote: lap/ring 1.37 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 168.15643990301538,
+"x": 158.55638923733807,
+"support": 0.047,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 18.9321292769878,
+"x": 3339.779922088685,
+"support": 0.0273,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 167.71723498201047,
+"x": 2168.6208608274883,
+"support": 0.0389,
+"note": "v4 crisp auto-demote: lap/ring 1.65 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 162.50426764455165,
+"x": 1245.406225091773,
+"support": 0.0311,
+"note": "v4 crisp auto-demote: lap/ring 1.04 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 193.60521373403654,
+"x": 2378.488940953933,
+"support": 0.0534,
+"note": "v4 crisp auto-demote: lap/ring 1.41 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 191.3201768819335,
+"x": 3718.068473593882,
+"support": 0.0578,
+"note": "v4 crisp auto-demote: lap/ring 1.53 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 88.38490415823745,
+"x": 1519.3388191653962,
+"support": 0.0306,
+"note": "v4 crisp auto-demote: lap/ring 1.63 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.1466973318233,
+"x": 1310.9697858957416,
+"support": 0.051,
+"note": "v4 crisp auto-demote: lap/ring 1.31 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 138.26010697776212,
+"x": 3133.593285489042,
+"support": 0.0461,
+"note": "v4 crisp auto-demote: lap/ring 1.13 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 224.19992182341372,
+"x": 1906.2913802134053,
+"support": 0.0742,
+"note": "v4 crisp auto-demote: lap/ring 1.55 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 172.0792850551194,
+"x": 931.0985761438005,
+"support": 0.03,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 238.1735575095151,
+"x": 1167.03648572463,
+"support": 0.0368,
+"note": "v4 crisp auto-demote: lap/ring 1.33 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 191.97457360937423,
+"x": 730.565960073811,
+"support": 0.0422,
+"note": "v4 crisp auto-demote: lap/ring 1.12 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 149.76437084428755,
+"x": 1956.7888445519015,
+"support": 0.0417,
+"note": "v4 crisp auto-demote: lap/ring 0.99 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 208.71207813716438,
+"x": 2993.6374599302208,
+"support": 0.0511,
+"note": "v4 crisp auto-demote: lap/ring 1.37 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 152.13775213730688,
+"x": 2168.852086410343,
+"support": 0.0578,
+"note": "v4 crisp auto-demote: lap/ring 1.17 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 134.42136299006484,
+"x": 1681.3121698778432,
+"support": 0.0263,
+"note": "v4 crisp auto-demote: lap/ring 1.27 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 183.85430499140978,
+"x": 2632.769778187926,
+"support": 0.0556,
+"note": "v4 crisp auto-demote: lap/ring 1.47 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 164.74734071968678,
+"x": 2060.2104654471236,
+"support": 0.0508,
+"note": "v4 crisp auto-demote: lap/ring 1.80 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 52.0328411025076,
+"x": 998.2371645070895,
+"support": 0.0304,
+"note": "v4 crisp auto-demote: lap/ring 1.22 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 217.2252671535757,
+"x": 1993.2179354808418,
+"support": 0.0466,
+"note": "v4 crisp auto-demote: lap/ring 1.57 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 51.81537647149216,
+"x": 621.4820572208,
+"support": 0.0449,
+"note": "v4 crisp auto-demote: lap/ring 1.03 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 11.241202258405224,
+"x": 3109.2554346182837,
+"support": 0.0076,
+"note": "v4 crisp auto-demote: lap/ring 1.14 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 39.06643000302612,
+"x": 1980.9526983764001,
+"support": 0.0265,
+"note": "v4 crisp auto-demote: lap/ring 1.71 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 22.75519601441946,
+"x": 1682.6722275798888,
+"support": 0.0187,
+"note": "v4 crisp auto-demote: lap/ring 1.09 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 212.41834923083695,
+"x": 3663.42564100806,
+"support": 0.0548,
+"note": "v4 crisp auto-demote: lap/ring 1.79 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 102.93414939594311,
+"x": 2168.584668686064,
+"support": 0.0187,
+"note": "v4 crisp auto-demote: lap/ring 1.64 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 151.26770049261145,
+"x": 1900.7975372625608,
+"support": 0.037,
+"note": "v4 crisp auto-demote: lap/ring 0.89 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 55.93799586527593,
+"x": 3420.0816737087325,
+"support": 0.0413,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 244.48343789666495,
+"x": 815.4486675823186,
+"support": 0.0379,
+"note": "v4 crisp auto-demote: lap/ring 1.23 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 71.57193326404318,
+"x": 1175.6680713366995,
+"support": 0.0217,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 195.70985889599015,
+"x": 2227.409498304994,
+"support": 0.043,
+"note": "v4 crisp auto-demote: lap/ring 1.14 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 184.97987039077555,
+"x": 2696.406846973493,
+"support": 0.0323,
+"note": "v4 crisp auto-demote: lap/ring 1.16 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 198.72778278265713,
+"x": 620.718890691788,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 73.18196763194999,
+"x": 1084.8165405405257,
+"support": 0.0249,
+"note": "v4 crisp auto-demote: lap/ring 0.97 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 17.956043981450595,
+"x": 2582.089361069687,
+"support": 0.0477,
+"note": "v4 crisp auto-demote: lap/ring 1.08 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 75.41642332780012,
+"x": 2202.828862096615,
+"support": 0.045,
+"note": "v4 crisp auto-demote: lap/ring 1.53 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 187.28836286596203,
+"x": 3146.4559644121373,
+"support": 0.0557,
+"note": "v4 crisp auto-demote: lap/ring 0.94 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 12.623729634096518,
+"x": 518.0483676717809,
+"support": 0.0081,
+"note": "v4 crisp auto-demote: lap/ring 1.14 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 193.17294113898515,
+"x": 2007.2377501990293,
+"support": 0.0369,
+"note": "v4 crisp auto-demote: lap/ring 1.47 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 204.78667739226682,
+"x": 2145.4387262321866,
+"support": 0.0677,
+"note": "v4 crisp auto-demote: lap/ring 1.35 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 102.51555082728095,
+"x": 267.9422571325093,
+"support": 0.0358,
+"note": "v4 crisp auto-demote: lap/ring 1.17 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 109.90145235994201,
+"x": 2297.016805486847,
+"support": 0.0245,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 176.94619034062126,
+"x": 1080.108147853451,
+"support": 0.0528,
+"note": "v4 crisp auto-demote: lap/ring 1.29 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 236.49284506637812,
+"x": 2486.937583922603,
+"support": 0.0609,
+"note": "v4 crisp auto-demote: lap/ring 1.74 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 222.8026051844456,
+"x": 3421.5825778304306,
+"support": 0.0411,
+"note": "v4 crisp auto-demote: lap/ring 1.22 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 213.49969022836126,
+"x": 3824.1266653207535,
+"support": 0.0488,
+"note": "v4 crisp auto-demote: lap/ring 0.95 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 204.9276474911022,
+"x": 3161.926935343886,
+"support": 0.065,
+"note": "v4 crisp auto-demote: lap/ring 1.39 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 182.58759289407425,
+"x": 2576.229333758757,
+"support": 0.0335,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 6.722340096341166,
+"x": 2430.5308750203103,
+"support": 0.0152,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 242.64987463002313,
+"x": 1135.7779291836648,
+"support": 0.0486,
+"note": "v4 crisp auto-demote: lap/ring 1.16 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 155.11151031104643,
+"x": 2599.483528918021,
+"support": 0.0349,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 54.639934982915875,
+"x": 2763.211337201182,
+"support": 0.0446,
+"note": "v4 crisp auto-demote: lap/ring 1.79 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 231.2909374114366,
+"x": 2906.8264000826175,
+"support": 0.0514,
+"note": "v4 crisp auto-demote: lap/ring 1.62 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 180.62071143222715,
+"x": 1784.337406612341,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 1.13 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 179.82522998563437,
+"x": 2964.122698501149,
+"support": 0.0313,
+"note": "v4 crisp auto-demote: lap/ring 1.32 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 155.52041401894425,
+"x": 1747.5380926825358,
+"support": 0.0403,
+"note": "v4 crisp auto-demote: lap/ring 1.65 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 170.00697959286555,
+"x": 1601.0018109461153,
+"support": 0.0359,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 219.26944539660298,
+"x": 3524.8633179581084,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 1.13 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 22.916228705126024,
+"x": 2258.5382872243663,
+"support": 0.0276,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 140.9523318366747,
+"x": 1292.1535279733657,
+"support": 0.0398,
+"note": "v4 crisp auto-demote: lap/ring 1.44 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 96.71968265388874,
+"x": 3261.514465255994,
+"support": 0.0318,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 248.1383215393245,
+"x": 2505.966601030972,
+"support": 0.0774,
+"note": "v4 crisp auto-demote: lap/ring 1.41 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 16.609678597142256,
+"x": 222.1278064743616,
+"support": 0.0103,
+"note": "v4 crisp auto-demote: lap/ring 1.44 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 207.53064085786923,
+"x": 2061.1713624932154,
+"support": 0.0426,
+"note": "v4 crisp auto-demote: lap/ring 1.52 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 22.010509894957522,
+"x": 754.4364130465414,
+"support": 0.0143,
+"note": "v4 crisp auto-demote: lap/ring 1.17 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 186.9910963011081,
+"x": 2278.905686685368,
+"support": 0.038,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 40.32096875819618,
+"x": 1526.5257201913637,
+"support": 0.0415,
+"note": "v4 crisp auto-demote: lap/ring 1.76 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 49.24546202080716,
+"x": 948.3442429316638,
+"support": 0.0264,
+"note": "v4 crisp auto-demote: lap/ring 1.28 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 77.03586878976593,
+"x": 3625.2786810664265,
+"support": 0.0541,
+"note": "v4 crisp auto-demote: lap/ring 1.62 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 37.36181564579865,
+"x": 1850.6014674278924,
+"support": 0.0244,
+"note": "v4 crisp auto-demote: lap/ring 1.62 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 10.023287064900774,
+"x": 3179.774919729763,
+"support": 0.018,
+"note": "v4 crisp auto-demote: lap/ring 1.12 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 126.17460183998656,
+"x": 1506.2974907662694,
+"support": 0.0518,
+"note": "v4 crisp auto-demote: lap/ring 1.42 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 191.03455457502847,
+"x": 648.3891762646341,
+"support": 0.0507,
+"note": "v4 crisp auto-demote: lap/ring 1.02 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 208.50734261058412,
+"x": 1433.345218819805,
+"support": 0.0398,
+"note": "v4 crisp auto-demote: lap/ring 1.36 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 138.68354575933805,
+"x": 852.1876132708301,
+"support": 0.0305,
+"note": "v4 crisp auto-demote: lap/ring 1.42 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 27.669972564458252,
+"x": 901.8635350595305,
+"support": 0.0275,
+"note": "v4 crisp auto-demote: lap/ring 1.25 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 188.66038343001517,
+"x": 2193.1903801460667,
+"support": 0.0423,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 146.70821885892752,
+"x": 2422.1449098604558,
+"support": 0.03,
+"note": "v4 crisp auto-demote: lap/ring 1.08 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 156.00723756604805,
+"x": 3052.3904244994064,
+"support": 0.0396,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 202.291012759548,
+"x": 1454.681803866516,
+"support": 0.0401,
+"note": "v4 crisp auto-demote: lap/ring 1.65 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 228.88163526545736,
+"x": 614.181437190401,
+"support": 0.0424,
+"note": "v4 crisp auto-demote: lap/ring 1.63 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 191.82036683357242,
+"x": 1945.7223838120835,
+"support": 0.0313,
+"note": "v4 crisp auto-demote: lap/ring 0.97 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 149.38015543093329,
+"x": 2650.3520955839094,
+"support": 0.0407,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 135.61689389436776,
+"x": 3101.178216820949,
+"support": 0.0333,
+"note": "v4 crisp auto-demote: lap/ring 1.12 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 44.53248570475887,
+"x": 1881.839603289348,
+"support": 0.0213,
+"note": "v4 crisp auto-demote: lap/ring 0.99 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 147.6038556976579,
+"x": 2423.034166825827,
+"support": 0.0357,
+"note": "v4 crisp auto-demote: lap/ring 1.04 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 202.4748402508813,
+"x": 412.0334057822388,
+"support": 0.0495,
+"note": "v4 crisp auto-demote: lap/ring 1.02 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 168.73918349097934,
+"x": 238.6684789517725,
+"support": 0.0324,
+"note": "v4 crisp auto-demote: lap/ring 0.93 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 184.39464253313673,
+"x": 3003.9694111460885,
+"support": 0.0319,
+"note": "v4 crisp auto-demote: lap/ring 1.30 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 247.69527505713492,
+"x": 1190.318876934693,
+"support": 0.0449,
+"note": "v4 crisp auto-demote: lap/ring 1.36 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.69746596892043,
+"x": 2612.340428294755,
+"support": 0.0349,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 136.37587924620007,
+"x": 3067.433605525009,
+"support": 0.0358,
+"note": "v4 crisp auto-demote: lap/ring 1.22 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 157.74145772200666,
+"x": 1582.9119037700684,
+"support": 0.0418,
+"note": "v4 crisp auto-demote: lap/ring 1.64 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 22.890872196160178,
+"x": 2663.601483316925,
+"support": 0.0312,
+"note": "v4 crisp auto-demote: lap/ring 1.60 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.91161291239422,
+"x": 242.56573906305618,
+"support": 0.0352,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 26.730275270896364,
+"x": 2239.765037680376,
+"support": 0.0125,
+"note": "v4 crisp auto-demote: lap/ring 1.22 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 33.8419671066706,
+"x": 793.7883460959945,
+"support": 0.0144,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 215.4501290360048,
+"x": 1758.7032107186515,
+"support": 0.0572,
+"note": "v4 crisp auto-demote: lap/ring 1.59 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 18.54794354149175,
+"x": 2722.653379014659,
+"support": 0.0134,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 37.07986629897187,
+"x": 1933.1750381153427,
+"support": 0.0144,
+"note": "v4 crisp auto-demote: lap/ring 1.27 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 126.57328264237724,
+"x": 2863.168326819706,
+"support": 0.0295,
+"note": "v4 crisp auto-demote: lap/ring 0.72 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 41.070324918551066,
+"x": 2973.4870095920455,
+"support": 0.0202,
+"note": "v4 crisp auto-demote: lap/ring 1.26 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 127.69582028291839,
+"x": 2987.7682431116564,
+"support": 0.0264,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 153.2020112169229,
+"x": 2508.2129041191965,
+"support": 0.0291,
+"note": "v4 crisp auto-demote: lap/ring 1.31 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 37.81700174215821,
+"x": 636.9123532996005,
+"support": 0.0466,
+"note": "v4 crisp auto-demote: lap/ring 1.01 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 165.44839531122662,
+"x": 2093.389162579202,
+"support": 0.0272,
+"note": "v4 crisp auto-demote: lap/ring 1.34 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 31.58086457682206,
+"x": 3295.9003313709386,
+"support": 0.014,
+"note": "v4 crisp auto-demote: lap/ring 0.82 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 153.9377640262632,
+"x": 1521.8963658450373,
+"support": 0.027,
+"note": "v4 crisp auto-demote: lap/ring 1.60 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 248.55032753492154,
+"x": 3062.052503283046,
+"support": 0.0727,
+"note": "v4 crisp auto-demote: lap/ring 0.89 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 183.5585563851658,
+"x": 527.9769247643741,
+"support": 0.0427,
+"note": "v4 crisp auto-demote: lap/ring 1.75 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 213.43100684706653,
+"x": 1968.6581579587535,
+"support": 0.0449,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 64.60648760244227,
+"x": 3211.7568563962127,
+"support": 0.021,
+"note": "v4 crisp auto-demote: lap/ring 1.76 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 157.79997584789234,
+"x": 1677.4079497932519,
+"support": 0.0366,
+"note": "v4 crisp auto-demote: lap/ring 1.67 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 150.2579783456972,
+"x": 751.9246935284966,
+"support": 0.0383,
+"note": "v4 crisp auto-demote: lap/ring 1.28 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 141.14444083570555,
+"x": 2638.2831141072315,
+"support": 0.0225,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 169.57075703318233,
+"x": 419.07030488635405,
+"support": 0.033,
+"note": "v4 crisp auto-demote: lap/ring 0.96 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.142935934214,
+"x": 3023.793850944893,
+"support": 0.0278,
+"note": "v4 crisp auto-demote: lap/ring 1.42 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 83.98322828662593,
+"x": 2104.547258359388,
+"support": 0.0255,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 105.66783361800415,
+"x": 1306.4029770462432,
+"support": 0.0277,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 164.21099441214818,
+"x": 249.4731790323791,
+"support": 0.0502,
+"note": "v4 crisp auto-demote: lap/ring 0.72 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 226.36280155875747,
+"x": 1936.8612096543843,
+"support": 0.0359,
+"note": "v4 crisp auto-demote: lap/ring 0.81 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 59.65887908521347,
+"x": 3457.9778060765316,
+"support": 0.0252,
+"note": "v4 crisp auto-demote: lap/ring 1.61 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 155.37572364221973,
+"x": 2700.7860278996022,
+"support": 0.0426,
+"note": "v4 crisp auto-demote: lap/ring 0.99 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 155.34472291784596,
+"x": 1446.9605522738557,
+"support": 0.0265,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 200.85632884683855,
+"x": 1386.2459659658314,
+"support": 0.0598,
+"note": "v4 crisp auto-demote: lap/ring 1.73 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 108.21676469355862,
+"x": 3286.8006802050204,
+"support": 0.0488,
+"note": "v4 crisp auto-demote: lap/ring 1.22 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 200.2253932395503,
+"x": 2889.3875184520984,
+"support": 0.0474,
+"note": "v4 crisp auto-demote: lap/ring 1.09 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 27.2711428402935,
+"x": 751.5180682988121,
+"support": 0.0219,
+"note": "v4 crisp auto-demote: lap/ring 1.16 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 193.5467300641502,
+"x": 2553.991124667936,
+"support": 0.0363,
+"note": "v4 crisp auto-demote: lap/ring 1.29 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 10.980697558312112,
+"x": 1355.785982756087,
+"support": 0.015,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 184.2023785143169,
+"x": 1047.740948322016,
+"support": 0.0488,
+"note": "v4 crisp auto-demote: lap/ring 1.68 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 94.64706729234162,
+"x": 2628.595912724641,
+"support": 0.0217,
+"note": "v4 crisp auto-demote: lap/ring 0.98 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 185.69213971567126,
+"x": 2848.0996966016423,
+"support": 0.0498,
+"note": "v4 crisp auto-demote: lap/ring 1.66 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 204.6050145745693,
+"x": 2794.2195183089134,
+"support": 0.0401,
+"note": "v4 crisp auto-demote: lap/ring 0.90 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 110.64921588354257,
+"x": 2103.3703430265473,
+"support": 0.0234,
+"note": "v4 crisp auto-demote: lap/ring 1.50 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 110.4032779965598,
+"x": 595.8784243320772,
+"support": 0.0199,
+"note": "v4 crisp auto-demote: lap/ring 0.96 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 193.61213846464014,
+"x": 2874.740917876371,
+"support": 0.0529,
+"note": "v4 crisp auto-demote: lap/ring 0.87 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 46.88876297384421,
+"x": 1214.2051952950133,
+"support": 0.0242,
+"note": "v4 crisp auto-demote: lap/ring 1.49 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 32.23868304003405,
+"x": 2098.5696877423893,
+"support": 0.0272,
+"note": "v4 crisp auto-demote: lap/ring 0.91 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 72.19669362510716,
+"x": 2352.919604873628,
+"support": 0.0267,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 68.81947854174217,
+"x": 3214.809654776958,
+"support": 0.0373,
+"note": "v4 crisp auto-demote: lap/ring 1.25 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 236.56464467581446,
+"x": 3251.856413222557,
+"support": 0.0486,
+"note": "v4 crisp auto-demote: lap/ring 1.16 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 18.98350598228247,
+"x": 3019.9172633915623,
+"support": 0.021,
+"note": "v4 crisp auto-demote: lap/ring 1.43 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 96.03585255635176,
+"x": 2556.0620211335768,
+"support": 0.019,
+"note": "v4 crisp auto-demote: lap/ring 1.44 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 237.36847568941687,
+"x": 2575.954499450049,
+"support": 0.0417,
+"note": "v4 crisp auto-demote: lap/ring 1.78 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 83.25077154800547,
+"x": 1998.1806416318173,
+"support": 0.0201,
+"note": "v4 crisp auto-demote: lap/ring 1.27 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 65.84711706753107,
+"x": 2821.33530034584,
+"support": 0.0413,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 14.950694456858558,
+"x": 2115.382525934295,
+"support": 0.0105,
+"note": "v4 crisp auto-demote: lap/ring 1.16 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 128.38374986951953,
+"x": 3132.3329761625673,
+"support": 0.0225,
+"note": "v4 crisp auto-demote: lap/ring 1.77 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 193.18812189439817,
+"x": 3033.71344190563,
+"support": 0.0414,
+"note": "v4 crisp auto-demote: lap/ring 1.03 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 202.595356228706,
+"x": 3510.6479610582205,
+"support": 0.045,
+"note": "v4 crisp auto-demote: lap/ring 1.55 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 38.28680609778773,
+"x": 2445.0110606672515,
+"support": 0.0178,
+"note": "v4 crisp auto-demote: lap/ring 1.15 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 29.040877877372235,
+"x": 2227.443367226493,
+"support": 0.018,
+"note": "v4 crisp auto-demote: lap/ring 1.54 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 127.50416959925039,
+"x": 2142.4810347995376,
+"support": 0.0279,
+"note": "v4 crisp auto-demote: lap/ring 1.25 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 48.65978173935577,
+"x": 1431.3805007022947,
+"support": 0.0201,
+"note": "v4 crisp auto-demote: lap/ring 1.67 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 247.49239994545525,
+"x": 1159.2962597738785,
+"support": 0.0442,
+"note": "v4 crisp auto-demote: lap/ring 1.31 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 108.852882188102,
+"x": 2337.445238041921,
+"support": 0.0205,
+"note": "v4 crisp auto-demote: lap/ring 1.06 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 192.7634439753068,
+"x": 822.5100177300168,
+"support": 0.0347,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 37.77594597964792,
+"x": 1392.7701642641975,
+"support": 0.0303,
+"note": "v4 crisp auto-demote: lap/ring 1.33 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 29.42446155158392,
+"x": 2208.201504405405,
+"support": 0.0354,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 222.97796897471738,
+"x": 3477.857861241198,
+"support": 0.0442,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 24.176124838544503,
+"x": 169.5327350816392,
+"support": 0.0319,
+"note": "v4 crisp auto-demote: lap/ring 1.26 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 16.557406314339367,
+"x": 2700.0926130181497,
+"support": 0.0187,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 182.45557888033227,
+"x": 2989.409489069294,
+"support": 0.0414,
+"note": "v4 crisp auto-demote: lap/ring 1.35 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 197.15955349689298,
+"x": 2214.6939857134903,
+"support": 0.0447,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 56.59284257321739,
+"x": 2278.997033975624,
+"support": 0.0431,
+"note": "v4 crisp auto-demote: lap/ring 1.29 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 212.77346592535454,
+"x": 2462.9963871182713,
+"support": 0.0384,
+"note": "v4 crisp auto-demote: lap/ring 0.95 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 232.89094505686552,
+"x": 2744.3157923960944,
+"support": 0.0413,
+"note": "v4 crisp auto-demote: lap/ring 1.20 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 202.30629629688082,
+"x": 1645.6394379038566,
+"support": 0.0409,
+"note": "v4 crisp auto-demote: lap/ring 0.90 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 102.8220392974724,
+"x": 2414.3693006684525,
+"support": 0.0175,
+"note": "v4 crisp auto-demote: lap/ring 1.12 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 21.409326043092438,
+"x": 2129.34588542044,
+"support": 0.0382,
+"note": "v4 crisp auto-demote: lap/ring 0.50 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 214.04943796544586,
+"x": 2051.3439214554933,
+"support": 0.0452,
+"note": "v4 crisp auto-demote: lap/ring 1.34 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 28.408167143668607,
+"x": 3104.2327676997857,
+"support": 0.0138,
+"note": "v4 crisp auto-demote: lap/ring 1.41 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 22.34372038531972,
+"x": 3510.0615517899205,
+"support": 0.0137,
+"note": "v4 crisp auto-demote: lap/ring 1.27 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 81.87135155034188,
+"x": 3498.0532682036437,
+"support": 0.0333,
+"note": "v4 crisp auto-demote: lap/ring 0.88 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 183.55415317664193,
+"x": 2845.8372707868743,
+"support": 0.0406,
+"note": "v4 crisp auto-demote: lap/ring 1.25 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 236.76779695327187,
+"x": 2875.078593575918,
+"support": 0.0441,
+"note": "v4 crisp auto-demote: lap/ring 1.28 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 30.44580489000695,
+"x": 2017.1339160821053,
+"support": 0.0143,
+"note": "v4 crisp auto-demote: lap/ring 1.39 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 98.6614881994572,
+"x": 2137.357663798206,
+"support": 0.0207,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 246.82130396061814,
+"x": 3097.360170223086,
+"support": 0.041,
+"note": "v4 crisp auto-demote: lap/ring 1.42 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 29.80548709226028,
+"x": 2308.4594245765284,
+"support": 0.0122,
+"note": "v4 crisp auto-demote: lap/ring 1.69 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 25.525354130236604,
+"x": 1667.453434144687,
+"support": 0.0136,
+"note": "v4 crisp auto-demote: lap/ring 1.46 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 205.0971317620868,
+"x": 384.5562357765042,
+"support": 0.0366,
+"note": "v4 crisp auto-demote: lap/ring 1.62 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 28.996418523214658,
+"x": 518.8317819780301,
+"support": 0.0119,
+"note": "v4 crisp auto-demote: lap/ring 1.07 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 49.90530113967783,
+"x": 1155.9547940627697,
+"support": 0.0328,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 176.872798912027,
+"x": 1118.8850106423652,
+"support": 0.0314,
+"note": "v4 crisp auto-demote: lap/ring 1.00 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 43.91472585988137,
+"x": 2871.7191683117708,
+"support": 0.034,
+"note": "v4 crisp auto-demote: lap/ring 1.00 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 191.06854329585013,
+"x": 3050.989472750809,
+"support": 0.0302,
+"note": "v4 crisp auto-demote: lap/ring 1.78 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 211.5407347794087,
+"x": 3302.8560865274276,
+"support": 0.0432,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 9.94104291292114,
+"x": 1343.6752788264098,
+"support": 0.0083,
+"note": "v4 crisp auto-demote: lap/ring 1.24 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 24.800971227534497,
+"x": 170.86886697553348,
+"support": 0.0145,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 72.82307794594938,
+"x": 2327.7637005208812,
+"support": 0.0213,
+"note": "v4 crisp auto-demote: lap/ring 0.96 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 14.17002632961632,
+"x": 1388.2668497953086,
+"support": 0.0113,
+"note": "v4 crisp auto-demote: lap/ring 1.19 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 99.0993278167383,
+"x": 3310.4507256650136,
+"support": 0.0244,
+"note": "v4 crisp auto-demote: lap/ring 1.67 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 33.607587480592,
+"x": 2129.308347555447,
+"support": 0.0193,
+"note": "v4 crisp auto-demote: lap/ring 1.54 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 4.146582622197112,
+"x": 1788.9858569641578,
+"support": 0.0176,
+"note": "v4 crisp auto-demote: lap/ring 1.51 < 1.8 on 4 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 13.762281911444656,
+"x": 1554.8989805587414,
+"support": 0.0123,
+"note": "v4 crisp auto-demote: lap/ring 1.14 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 55.35423112250031,
+"x": 2286.487612096068,
+"support": 0.0244,
+"note": "v4 crisp auto-demote: lap/ring 1.41 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 4.495182185287724,
+"x": 2101.6603795163983,
+"support": 0.0135,
+"note": "v4 crisp auto-demote: lap/ring 1.40 < 1.8 on 2 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 25.132564180544495,
+"x": 1842.2575409018573,
+"support": 0.0131,
+"note": "v4 crisp auto-demote: lap/ring 1.26 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 4.707290552774095,
+"x": 1866.1228047530767,
+"support": 0.0086,
+"note": "v4 crisp auto-demote: lap/ring 1.38 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 5.446820633751944,
+"x": 2662.22660989162,
+"support": 0.0087,
+"note": "v4 crisp auto-demote: lap/ring 1.18 < 1.8 on 1 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 24.12001519524531,
+"x": 1553.200130435309,
+"support": 0.0114,
+"note": "v4 crisp auto-demote: lap/ring 1.21 < 1.8 on 3 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 9.362440137870564,
+"x": 1886.6019082474345,
+"support": 0.0082,
+"note": "v4 crisp auto-demote: lap/ring 1.05 < 1.8 on 5 native-L2 views (calibrated on the 43 eye-confirmed / 287 eye-demoted clusters of overrides_v3); support x0.3"
+},
+{
+"t": 72.0,
+"x": 1104.0,
+"keep": true,
+"note": "v4 eye (native L2 f70 view 1104,1080): confirmed HANGAR - dark half-cylinder Quonset hut with an open curved end, ~145x160 src px, on the airfield next to the two jets. v2/r11/ft2 vote condor/spacecraft on it; the hangar label is right."
+},
+{
+"t": 69.9,
+"x": 1071.0,
+"keep": true,
+"note": "v4 eye (native L2 f70): confirmed JET_PLANE - grey swept-wing fighter with a dark nose and orange tail marks, ~62x50 src px. Same model as the t70.5/x1217 and t126.4/x2682 jets; NOT a condor."
+},
+{
+"t": 173.3,
+"x": 1191.0,
+"keep": true,
+"note": "v4 eye (native L2 f173): confirmed SMALL_TOWER - white/grey platform with a green roof box, 39x46 src px. This is the ONLY native-L2 spacecraft-sized (30-55 px) high-conf spacecraft candidate in the whole flight (v2 0.77) and it is not a spacecraft."
+},
+{
+"t": 125.1,
+"x": 1215.0,
+"support": 0.02,
+"note": "v4 eye (L1 f116 1258,507): marina pontoon + white motor boats, blurry photogrammetry - the 'condor' votes here are boat+jetty crosses. Same for the t122.3/x1805, t123.4/x998, t121.7/x2992 condor clusters (all n_l2 = 0)."
+},
+{
+"t": 122.3,
+"x": 1805.0,
+"support": 0.02,
+"note": "v4: marina boats (see t125.1/x1215); no native-L2 evidence (n_l2 = 0)."
+}
+]

@@ -1,0 +1,1835 @@
+{
+ "rep": 0,
+ "n_conv": 31,
+ "names": [
+  "conversation_sample_4.mp3",
+  "conversation_sample_5.mp3",
+  "conversation_sample_10.mp3",
+  "conversation_sample_17.mp3",
+  "conversation_sample_18.mp3",
+  "conversation_sample_19.mp3",
+  "conversation_sample_23.mp3",
+  "conversation_sample_33.mp3",
+  "conversation_sample_37.mp3",
+  "conversation_sample_39.mp3",
+  "conversation_sample_43.mp3",
+  "conversation_sample_47.mp3",
+  "conversation_sample_48.mp3",
+  "conversation_sample_50.mp3",
+  "conversation_sample_54.mp3",
+  "conversation_sample_55.mp3",
+  "conversation_sample_56.mp3",
+  "conversation_sample_57.mp3",
+  "conversation_sample_64.mp3",
+  "conversation_sample_66.mp3",
+  "conversation_sample_67.mp3",
+  "conversation_sample_69.mp3",
+  "conversation_sample_71.mp3",
+  "conversation_sample_75.mp3",
+  "conversation_sample_77.mp3",
+  "conversation_sample_79.mp3",
+  "conversation_sample_82.mp3",
+  "conversation_sample_84.mp3",
+  "conversation_sample_86.mp3",
+  "conversation_sample_90.mp3",
+  "conversation_sample_95.mp3"
+ ],
+ "split": {
+  "dev": [
+   "conversation_sample_10.mp3",
+   "conversation_sample_17.mp3",
+   "conversation_sample_18.mp3",
+   "conversation_sample_23.mp3",
+   "conversation_sample_33.mp3",
+   "conversation_sample_37.mp3",
+   "conversation_sample_4.mp3",
+   "conversation_sample_43.mp3",
+   "conversation_sample_48.mp3",
+   "conversation_sample_5.mp3",
+   "conversation_sample_71.mp3",
+   "conversation_sample_79.mp3",
+   "conversation_sample_82.mp3",
+   "conversation_sample_84.mp3",
+   "conversation_sample_90.mp3"
+  ],
+  "test": [
+   "conversation_sample_19.mp3",
+   "conversation_sample_39.mp3",
+   "conversation_sample_47.mp3",
+   "conversation_sample_50.mp3",
+   "conversation_sample_54.mp3",
+   "conversation_sample_55.mp3",
+   "conversation_sample_56.mp3",
+   "conversation_sample_57.mp3",
+   "conversation_sample_64.mp3",
+   "conversation_sample_66.mp3",
+   "conversation_sample_67.mp3",
+   "conversation_sample_69.mp3",
+   "conversation_sample_75.mp3",
+   "conversation_sample_77.mp3",
+   "conversation_sample_86.mp3",
+   "conversation_sample_95.mp3"
+  ]
+ },
+ "base_env": {
+  "UPSTREAM": "/workspace/upstream",
+  "MED_LLM_URL": "http://127.0.0.1:8001/v1",
+  "MED_ORDER": "aeq",
+  "MED_SPAN_COVERAGE_NEXT": "1",
+  "MED_USE_QUOTE": "0",
+  "MED_SPAN_ONSET_SENTSTART": "1",
+  "MED_UNIT_MODE": "island",
+  "MED_ISLAND_THR": "-40",
+  "MED_ISLAND_END_TRIM": "0.1",
+  "MED_ISLAND_GAP": "0.5"
+ },
+ "arms": {
+  "g015": {
+   "unit_mode": "island",
+   "gap": "0.15",
+   "cfg": {},
+   "per_conv": {
+    "conversation_sample_4.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.4796212146428736,
+     "tious": [
+      0.9957,
+      0.3341,
+      0.143,
+      0.469,
+      0.0,
+      0.56,
+      0.9779
+     ],
+     "score": 0.698253,
+     "split": "dev",
+     "n_units": 51,
+     "qa_s": 1.81
+    },
+    "conversation_sample_5.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 5.175771184257256,
+     "tious": [
+      0.9763,
+      0.5677,
+      0.989,
+      0.7586,
+      0.9607,
+      0.9235
+     ],
+     "score": 0.917577,
+     "split": "dev",
+     "n_units": 70,
+     "qa_s": 1.28
+    },
+    "conversation_sample_10.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.6249558147755376,
+     "tious": [
+      0.6829,
+      1.0,
+      0.942
+     ],
+     "score": 0.924991,
+     "split": "dev",
+     "n_units": 57,
+     "qa_s": 0.82
+    },
+    "conversation_sample_17.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.235387966989257,
+     "tious": [
+      0.1746,
+      0.7488,
+      0.3119
+     ],
+     "score": 0.647078,
+     "split": "dev",
+     "n_units": 39,
+     "qa_s": 1.45
+    },
+    "conversation_sample_18.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 6.029191714568865,
+     "tious": [
+      0.8785,
+      0.9545,
+      0.6203,
+      0.9926,
+      0.9718,
+      0.9807,
+      0.6307
+     ],
+     "score": 0.916788,
+     "split": "dev",
+     "n_units": 49,
+     "qa_s": 1.64
+    },
+    "conversation_sample_19.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 2.843928026647577,
+     "tious": [
+      0.9176,
+      0.9632,
+      0.9632,
+      0.0
+     ],
+     "score": 0.786589,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 1.63
+    },
+    "conversation_sample_23.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 1.4143945578231296,
+     "tious": [
+      0.0,
+      0.428,
+      0.0,
+      0.0,
+      0.0,
+      0.9864
+     ],
+     "score": 0.541439,
+     "split": "dev",
+     "n_units": 48,
+     "qa_s": 1.94
+    },
+    "conversation_sample_33.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 3.147403923505677,
+     "tious": [
+      0.7104,
+      0.7823,
+      0.4258,
+      0.0,
+      0.2638,
+      0.9652
+     ],
+     "score": 0.71474,
+     "split": "dev",
+     "n_units": 52,
+     "qa_s": 1.7
+    },
+    "conversation_sample_37.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 2.953886287914261,
+     "tious": [
+      0.6867,
+      0.9394,
+      0.9913,
+      0.2418,
+      0.0,
+      0.0948
+     ],
+     "score": 0.695389,
+     "split": "dev",
+     "n_units": 50,
+     "qa_s": 1.57
+    },
+    "conversation_sample_39.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.4434528715437214,
+     "tious": [
+      0.8913,
+      0.6263,
+      0.3489,
+      0.5769
+     ],
+     "score": 0.766518,
+     "split": "test",
+     "n_units": 42,
+     "qa_s": 1.51
+    },
+    "conversation_sample_43.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.063366956202853,
+     "tious": [
+      0.9507,
+      0.9767,
+      0.9306,
+      0.3488,
+      0.8566
+     ],
+     "score": 0.887604,
+     "split": "dev",
+     "n_units": 47,
+     "qa_s": 1.64
+    },
+    "conversation_sample_47.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.229867594589079,
+     "tious": [
+      0.2958,
+      0.9459,
+      0.9882
+     ],
+     "score": 0.845974,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 0.99
+    },
+    "conversation_sample_48.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.121375390938984,
+     "tious": [
+      0.1342,
+      0.2583,
+      0.9562,
+      0.9692,
+      0.7291,
+      0.9532,
+      0.1211
+     ],
+     "score": 0.753261,
+     "split": "dev",
+     "n_units": 58,
+     "qa_s": 0.86
+    },
+    "conversation_sample_50.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.120682081688076,
+     "tious": [
+      0.7003,
+      0.9919,
+      0.9209,
+      0.5345,
+      0.973
+     ],
+     "score": 0.894482,
+     "split": "test",
+     "n_units": 47,
+     "qa_s": 1.72
+    },
+    "conversation_sample_54.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 3.8921771409116004,
+     "tious": [
+      0.9613,
+      0.9648,
+      0.9836,
+      0.9825
+     ],
+     "score": 0.983827,
+     "split": "test",
+     "n_units": 67,
+     "qa_s": 0.84
+    },
+    "conversation_sample_55.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.318966320062172,
+     "tious": [
+      0.6995,
+      0.6483,
+      0.9712
+     ],
+     "score": 0.863793,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 1.31
+    },
+    "conversation_sample_56.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.774622068934363,
+     "tious": [
+      0.3845,
+      0.9065,
+      0.9634,
+      0.5202
+     ],
+     "score": 0.816193,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 0.93
+    },
+    "conversation_sample_57.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.6398889911067247,
+     "tious": [
+      0.4274,
+      0.9723,
+      0.3729,
+      0.0,
+      0.1243,
+      0.9766,
+      0.7664
+     ],
+     "score": 0.71199,
+     "split": "test",
+     "n_units": 83,
+     "qa_s": 0.99
+    },
+    "conversation_sample_64.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.0911217409638425,
+     "tious": [
+      0.2917,
+      0.9535,
+      0.8459,
+      0.0
+     ],
+     "score": 0.713668,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 0.92
+    },
+    "conversation_sample_66.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 1.8416785849414978,
+     "tious": [
+      0.9771,
+      0.3596,
+      0.0,
+      0.505
+     ],
+     "score": 0.676252,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 1.02
+    },
+    "conversation_sample_67.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 5.127658749249709,
+     "tious": [
+      0.9633,
+      0.4615,
+      0.0,
+      0.8671,
+      0.9375,
+      0.932,
+      0.9661
+     ],
+     "score": 0.839514,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 0.84
+    },
+    "conversation_sample_69.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 2.776804266985852,
+     "tious": [
+      1.0,
+      0.3953,
+      0.4203,
+      0.4136,
+      0.3526,
+      0.195
+     ],
+     "score": 0.67768,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 1.53
+    },
+    "conversation_sample_71.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 5,
+     "sum_tiou": 4.641232460128821,
+     "tious": [
+      0.9816,
+      0.9831,
+      0.8682,
+      0.9802,
+      0.8281
+     ],
+     "score": 0.916948,
+     "split": "dev",
+     "n_units": 63,
+     "qa_s": 1.05
+    },
+    "conversation_sample_75.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.6892927843358394,
+     "tious": [
+      0.9139,
+      0.3598,
+      0.8675,
+      0.548
+     ],
+     "score": 0.803394,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 1.82
+    },
+    "conversation_sample_77.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.968392060361958,
+     "tious": [
+      0.9699,
+      0.9769,
+      0.1928,
+      0.988,
+      0.9767,
+      0.864,
+      0.0
+     ],
+     "score": 0.825862,
+     "split": "test",
+     "n_units": 55,
+     "qa_s": 0.9
+    },
+    "conversation_sample_79.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 1.7396169597687292,
+     "tious": [
+      0.661,
+      0.0,
+      0.5857,
+      0.4929,
+      0.0
+     ],
+     "score": 0.608754,
+     "split": "dev",
+     "n_units": 89,
+     "qa_s": 1.61
+    },
+    "conversation_sample_82.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 1.6223755995203903,
+     "tious": [
+      0.92,
+      0.0,
+      0.3118,
+      0.3906
+     ],
+     "score": 0.603356,
+     "split": "dev",
+     "n_units": 53,
+     "qa_s": 1.76
+    },
+    "conversation_sample_84.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.181605451495125,
+     "tious": [
+      0.9398,
+      0.4364,
+      0.5862,
+      0.9804,
+      0.0,
+      0.2471,
+      0.9919
+     ],
+     "score": 0.758423,
+     "split": "dev",
+     "n_units": 98,
+     "qa_s": 1.67
+    },
+    "conversation_sample_86.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 3,
+     "sum_tiou": 2.0637855819011452,
+     "tious": [
+      0.1911,
+      0.9971,
+      0.8756
+     ],
+     "score": 0.772757,
+     "split": "test",
+     "n_units": 71,
+     "qa_s": 1.05
+    },
+    "conversation_sample_90.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 3.8545322793148875,
+     "tious": [
+      0.56,
+      0.9333,
+      0.4659,
+      0.962,
+      0.9333
+     ],
+     "score": 0.862544,
+     "split": "dev",
+     "n_units": 44,
+     "qa_s": 1.58
+    },
+    "conversation_sample_95.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.248649228903856,
+     "tious": [
+      0.293,
+      0.0773,
+      0.8783
+     ],
+     "score": 0.64973,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 1.81
+    }
+   },
+   "cli": {
+    "all": "{\"score\": 0.7741, \"accuracy\": 0.9871, \"tiou\": 0.6322, \"tiou_yes\": 0.6405, \"n\": 310, \"positive\": 0.987, \"hard_negative\": 0.991, \"off_topic\": 0.977}",
+    "dev": "{\"score\": 0.7626, \"accuracy\": 0.9867, \"tiou\": 0.6132, \"tiou_yes\": 0.6208, \"n\": 150, \"positive\": 0.988, \"hard_negative\": 1.0, \"off_topic\": 0.952}",
+    "test": "{\"score\": 0.7873, \"accuracy\": 0.9875, \"tiou\": 0.6538, \"tiou_yes\": 0.663, \"n\": 160, \"positive\": 0.986, \"off_topic\": 1.0, \"hard_negative\": 0.985}"
+   },
+   "latency_s": {
+    "mean": 1.3616775389640563,
+    "max": 1.9377906322479248,
+    "p95": 1.8145456314086914
+   },
+   "deadline_misses": 0,
+   "src_counts": {
+    "llm": 310
+   },
+   "units_mean": 58.354838709677416,
+   "all": {
+    "score": 0.7741,
+    "accuracy": 0.9871,
+    "tiou": 0.6322,
+    "tiou_yes": 0.6405,
+    "n": 310,
+    "positive": 0.987,
+    "hard_negative": 0.991,
+    "off_topic": 0.977
+   },
+   "dev": {
+    "score": 0.7626,
+    "accuracy": 0.9867,
+    "tiou": 0.6132,
+    "tiou_yes": 0.6208,
+    "n": 150,
+    "positive": 0.988,
+    "hard_negative": 1.0,
+    "off_topic": 0.952
+   },
+   "test": {
+    "score": 0.7873,
+    "accuracy": 0.9875,
+    "tiou": 0.6538,
+    "tiou_yes": 0.663,
+    "n": 160,
+    "positive": 0.986,
+    "off_topic": 1.0,
+    "hard_negative": 0.985
+   }
+  },
+  "tp1c": {
+   "unit_mode": "island",
+   "gap": "0.15",
+   "cfg": {
+    "two_pass": 1,
+    "tp_extent": "cluster"
+   },
+   "per_conv": {
+    "conversation_sample_4.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.4589168802775463,
+     "tious": [
+      0.9957,
+      0.3341,
+      0.143,
+      0.469,
+      0.9572,
+      0.56,
+      0.0
+     ],
+     "score": 0.696479,
+     "split": "dev",
+     "n_units": 51,
+     "qa_s": 3.85
+    },
+    "conversation_sample_5.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 4.65188095019753,
+     "tious": [
+      0.4524,
+      0.5677,
+      0.989,
+      0.7586,
+      0.9607,
+      0.9235
+     ],
+     "score": 0.865188,
+     "split": "dev",
+     "n_units": 70,
+     "qa_s": 2.56
+    },
+    "conversation_sample_10.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.6829268292682928,
+     "tious": [
+      0.6829,
+      1.0,
+      0.0
+     ],
+     "score": 0.736585,
+     "split": "dev",
+     "n_units": 57,
+     "qa_s": 1.98
+    },
+    "conversation_sample_17.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.235387966989257,
+     "tious": [
+      0.1746,
+      0.7488,
+      0.3119
+     ],
+     "score": 0.647078,
+     "split": "dev",
+     "n_units": 39,
+     "qa_s": 2.4
+    },
+    "conversation_sample_18.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 5.398457769614737,
+     "tious": [
+      0.8785,
+      0.9545,
+      0.6203,
+      0.9926,
+      0.9718,
+      0.9807,
+      0.0
+     ],
+     "score": 0.862725,
+     "split": "dev",
+     "n_units": 49,
+     "qa_s": 3.44
+    },
+    "conversation_sample_19.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 2.843928026647577,
+     "tious": [
+      0.9176,
+      0.9632,
+      0.9632,
+      0.0
+     ],
+     "score": 0.786589,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 2.99
+    },
+    "conversation_sample_23.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 5.266101192265129,
+     "tious": [
+      0.9922,
+      0.428,
+      0.941,
+      0.96,
+      0.9585,
+      0.9864
+     ],
+     "score": 0.92661,
+     "split": "dev",
+     "n_units": 48,
+     "qa_s": 3.64
+    },
+    "conversation_sample_33.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 3.1946935034720365,
+     "tious": [
+      0.7104,
+      0.7823,
+      0.4258,
+      0.0,
+      0.3111,
+      0.9652
+     ],
+     "score": 0.719469,
+     "split": "dev",
+     "n_units": 52,
+     "qa_s": 3.34
+    },
+    "conversation_sample_37.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 1.962581940088175,
+     "tious": [
+      0.6867,
+      0.9394,
+      0.0,
+      0.2418,
+      0.0,
+      0.0948
+     ],
+     "score": 0.596258,
+     "split": "dev",
+     "n_units": 50,
+     "qa_s": 3.59
+    },
+    "conversation_sample_39.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.4434528715437214,
+     "tious": [
+      0.8913,
+      0.6263,
+      0.3489,
+      0.5769
+     ],
+     "score": 0.766518,
+     "split": "test",
+     "n_units": 42,
+     "qa_s": 2.51
+    },
+    "conversation_sample_43.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.063366956202853,
+     "tious": [
+      0.9507,
+      0.9767,
+      0.9306,
+      0.3488,
+      0.8566
+     ],
+     "score": 0.887604,
+     "split": "dev",
+     "n_units": 47,
+     "qa_s": 3.41
+    },
+    "conversation_sample_47.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.229867594589079,
+     "tious": [
+      0.2958,
+      0.9459,
+      0.9882
+     ],
+     "score": 0.845974,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 2.15
+    },
+    "conversation_sample_48.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 2.340299436845638,
+     "tious": [
+      0.1342,
+      0.9691,
+      0.0,
+      0.9692,
+      0.1466,
+      0.0,
+      0.1211
+     ],
+     "score": 0.600597,
+     "split": "dev",
+     "n_units": 58,
+     "qa_s": 2.72
+    },
+    "conversation_sample_50.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.120682081688076,
+     "tious": [
+      0.7003,
+      0.9919,
+      0.9209,
+      0.5345,
+      0.973
+     ],
+     "score": 0.894482,
+     "split": "test",
+     "n_units": 47,
+     "qa_s": 3.11
+    },
+    "conversation_sample_54.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.930886818330952,
+     "tious": [
+      0.0,
+      0.9648,
+      0.9836,
+      0.9825
+     ],
+     "score": 0.839633,
+     "split": "test",
+     "n_units": 67,
+     "qa_s": 2.25
+    },
+    "conversation_sample_55.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.318966320062172,
+     "tious": [
+      0.6995,
+      0.6483,
+      0.9712
+     ],
+     "score": 0.863793,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 1.82
+    },
+    "conversation_sample_56.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.774622068934363,
+     "tious": [
+      0.3845,
+      0.9065,
+      0.9634,
+      0.5202
+     ],
+     "score": 0.816193,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 2.34
+    },
+    "conversation_sample_57.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 2.202513769552705,
+     "tious": [
+      0.4274,
+      0.9723,
+      0.3729,
+      0.0,
+      0.0,
+      0.0431,
+      0.3868
+     ],
+     "score": 0.588787,
+     "split": "test",
+     "n_units": 83,
+     "qa_s": 3.45
+    },
+    "conversation_sample_64.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.0911217409638425,
+     "tious": [
+      0.2917,
+      0.9535,
+      0.8459,
+      0.0
+     ],
+     "score": 0.713668,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 2.4
+    },
+    "conversation_sample_66.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 1.8416785849414978,
+     "tious": [
+      0.9771,
+      0.3596,
+      0.0,
+      0.505
+     ],
+     "score": 0.676252,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 2.48
+    },
+    "conversation_sample_67.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 5.16091898316784,
+     "tious": [
+      0.9633,
+      0.4615,
+      0.9708,
+      0.8671,
+      0.0,
+      0.932,
+      0.9661
+     ],
+     "score": 0.842364,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 2.82
+    },
+    "conversation_sample_69.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 2.776804266985852,
+     "tious": [
+      1.0,
+      0.3953,
+      0.4203,
+      0.4136,
+      0.3526,
+      0.195
+     ],
+     "score": 0.67768,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 3.54
+    },
+    "conversation_sample_71.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 5,
+     "sum_tiou": 4.641232460128821,
+     "tious": [
+      0.9816,
+      0.9831,
+      0.8682,
+      0.9802,
+      0.8281
+     ],
+     "score": 0.916948,
+     "split": "dev",
+     "n_units": 63,
+     "qa_s": 2.54
+    },
+    "conversation_sample_75.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.12212265859873,
+     "tious": [
+      0.9139,
+      0.0,
+      0.8675,
+      0.3407
+     ],
+     "score": 0.718318,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 2.07
+    },
+    "conversation_sample_77.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.9915134476451954,
+     "tious": [
+      0.9699,
+      0.0,
+      0.1928,
+      0.988,
+      0.9767,
+      0.864,
+      0.0
+     ],
+     "score": 0.74213,
+     "split": "test",
+     "n_units": 55,
+     "qa_s": 2.95
+    },
+    "conversation_sample_79.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 1.0785714285714276,
+     "tious": [
+      0.0,
+      0.0,
+      0.5857,
+      0.4929,
+      0.0
+     ],
+     "score": 0.529429,
+     "split": "dev",
+     "n_units": 89,
+     "qa_s": 3.21
+    },
+    "conversation_sample_82.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 0.702375599520384,
+     "tious": [
+      0.0,
+      0.0,
+      0.3118,
+      0.3906
+     ],
+     "score": 0.465356,
+     "split": "dev",
+     "n_units": 53,
+     "qa_s": 3.13
+    },
+    "conversation_sample_84.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.5954435715995645,
+     "tious": [
+      0.9398,
+      0.4364,
+      0.0,
+      0.9804,
+      0.0,
+      0.2471,
+      0.9919
+     ],
+     "score": 0.708181,
+     "split": "dev",
+     "n_units": 98,
+     "qa_s": 3.48
+    },
+    "conversation_sample_86.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 3,
+     "sum_tiou": 2.0637855819011452,
+     "tious": [
+      0.1911,
+      0.9971,
+      0.8756
+     ],
+     "score": 0.772757,
+     "split": "test",
+     "n_units": 71,
+     "qa_s": 2.56
+    },
+    "conversation_sample_90.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 3.8545322793148875,
+     "tious": [
+      0.56,
+      0.9333,
+      0.4659,
+      0.962,
+      0.9333
+     ],
+     "score": 0.862544,
+     "split": "dev",
+     "n_units": 44,
+     "qa_s": 2.91
+    },
+    "conversation_sample_95.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 0.2930402930402933,
+     "tious": [
+      0.293,
+      0.0,
+      0.0
+     ],
+     "score": 0.458608,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 2.51
+    }
+   },
+   "cli": {
+    "all": "{\"score\": 0.7429, \"accuracy\": 0.9871, \"tiou\": 0.5801, \"tiou_yes\": 0.5877, \"n\": 310, \"positive\": 0.987, \"hard_negative\": 0.991, \"off_topic\": 0.977}",
+    "dev": "{\"score\": 0.7395, \"accuracy\": 0.9867, \"tiou\": 0.5747, \"tiou_yes\": 0.5818, \"n\": 150, \"positive\": 0.988, \"hard_negative\": 1.0, \"off_topic\": 0.952}",
+    "test": "{\"score\": 0.7467, \"accuracy\": 0.9875, \"tiou\": 0.5862, \"tiou_yes\": 0.5944, \"n\": 160, \"positive\": 0.986, \"off_topic\": 1.0, \"hard_negative\": 0.985}"
+   },
+   "latency_s": {
+    "mean": 2.8433367821478073,
+    "max": 3.8462581634521484,
+    "p95": 3.585923910140991
+   },
+   "deadline_misses": 0,
+   "src_counts": {
+    "llm": 310
+   },
+   "units_mean": 58.354838709677416,
+   "all": {
+    "score": 0.7429,
+    "accuracy": 0.9871,
+    "tiou": 0.5801,
+    "tiou_yes": 0.5877,
+    "n": 310,
+    "positive": 0.987,
+    "hard_negative": 0.991,
+    "off_topic": 0.977
+   },
+   "dev": {
+    "score": 0.7395,
+    "accuracy": 0.9867,
+    "tiou": 0.5747,
+    "tiou_yes": 0.5818,
+    "n": 150,
+    "positive": 0.988,
+    "hard_negative": 1.0,
+    "off_topic": 0.952
+   },
+   "test": {
+    "score": 0.7467,
+    "accuracy": 0.9875,
+    "tiou": 0.5862,
+    "tiou_yes": 0.5944,
+    "n": 160,
+    "positive": 0.986,
+    "off_topic": 1.0,
+    "hard_negative": 0.985
+   }
+  },
+  "tp2c": {
+   "unit_mode": "island",
+   "gap": "0.15",
+   "cfg": {
+    "two_pass": 2,
+    "tp_extent": "cluster"
+   },
+   "per_conv": {
+    "conversation_sample_4.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.436858056748134,
+     "tious": [
+      0.9957,
+      0.3341,
+      0.143,
+      0.469,
+      0.9572,
+      0.56,
+      0.9779
+     ],
+     "score": 0.780302,
+     "split": "dev",
+     "n_units": 51,
+     "qa_s": 2.09
+    },
+    "conversation_sample_5.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 4.65188095019753,
+     "tious": [
+      0.4524,
+      0.5677,
+      0.989,
+      0.7586,
+      0.9607,
+      0.9235
+     ],
+     "score": 0.865188,
+     "split": "dev",
+     "n_units": 70,
+     "qa_s": 1.25
+    },
+    "conversation_sample_10.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.6249558147755376,
+     "tious": [
+      0.6829,
+      1.0,
+      0.942
+     ],
+     "score": 0.924991,
+     "split": "dev",
+     "n_units": 57,
+     "qa_s": 0.85
+    },
+    "conversation_sample_17.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.235387966989257,
+     "tious": [
+      0.1746,
+      0.7488,
+      0.3119
+     ],
+     "score": 0.647078,
+     "split": "dev",
+     "n_units": 39,
+     "qa_s": 1.44
+    },
+    "conversation_sample_18.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 6.029191714568865,
+     "tious": [
+      0.8785,
+      0.9545,
+      0.6203,
+      0.9926,
+      0.9718,
+      0.9807,
+      0.6307
+     ],
+     "score": 0.916788,
+     "split": "dev",
+     "n_units": 49,
+     "qa_s": 1.61
+    },
+    "conversation_sample_19.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 2.843928026647577,
+     "tious": [
+      0.9176,
+      0.9632,
+      0.9632,
+      0.0
+     ],
+     "score": 0.786589,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 1.62
+    },
+    "conversation_sample_23.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 4.279706634441999,
+     "tious": [
+      0.9922,
+      0.428,
+      0.941,
+      0.96,
+      0.9585,
+      0.0
+     ],
+     "score": 0.827971,
+     "split": "dev",
+     "n_units": 48,
+     "qa_s": 2.47
+    },
+    "conversation_sample_33.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 3.1946935034720365,
+     "tious": [
+      0.7104,
+      0.7823,
+      0.4258,
+      0.0,
+      0.3111,
+      0.9652
+     ],
+     "score": 0.719469,
+     "split": "dev",
+     "n_units": 52,
+     "qa_s": 2.12
+    },
+    "conversation_sample_37.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 2.0144923485203226,
+     "tious": [
+      0.6867,
+      0.0,
+      0.9913,
+      0.2418,
+      0.0,
+      0.0948
+     ],
+     "score": 0.601449,
+     "split": "dev",
+     "n_units": 50,
+     "qa_s": 1.74
+    },
+    "conversation_sample_39.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.4434528715437214,
+     "tious": [
+      0.8913,
+      0.6263,
+      0.3489,
+      0.5769
+     ],
+     "score": 0.766518,
+     "split": "test",
+     "n_units": 42,
+     "qa_s": 1.48
+    },
+    "conversation_sample_43.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.063366956202853,
+     "tious": [
+      0.9507,
+      0.9767,
+      0.9306,
+      0.3488,
+      0.8566
+     ],
+     "score": 0.887604,
+     "split": "dev",
+     "n_units": 47,
+     "qa_s": 1.86
+    },
+    "conversation_sample_47.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.229867594589079,
+     "tious": [
+      0.2958,
+      0.9459,
+      0.9882
+     ],
+     "score": 0.845974,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 1.37
+    },
+    "conversation_sample_48.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.8321939480556715,
+     "tious": [
+      0.1342,
+      0.9691,
+      0.9562,
+      0.9692,
+      0.7291,
+      0.9532,
+      0.1211
+     ],
+     "score": 0.814188,
+     "split": "dev",
+     "n_units": 58,
+     "qa_s": 1.12
+    },
+    "conversation_sample_50.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 4.120682081688076,
+     "tious": [
+      0.7003,
+      0.9919,
+      0.9209,
+      0.5345,
+      0.973
+     ],
+     "score": 0.894482,
+     "split": "test",
+     "n_units": 47,
+     "qa_s": 1.72
+    },
+    "conversation_sample_54.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.930886818330952,
+     "tious": [
+      0.0,
+      0.9648,
+      0.9836,
+      0.9825
+     ],
+     "score": 0.839633,
+     "split": "test",
+     "n_units": 67,
+     "qa_s": 1.21
+    },
+    "conversation_sample_55.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 2.318966320062172,
+     "tious": [
+      0.6995,
+      0.6483,
+      0.9712
+     ],
+     "score": 0.863793,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 0.77
+    },
+    "conversation_sample_56.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.774622068934363,
+     "tious": [
+      0.3845,
+      0.9065,
+      0.9634,
+      0.5202
+     ],
+     "score": 0.816193,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 0.93
+    },
+    "conversation_sample_57.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 3.6398889911067247,
+     "tious": [
+      0.4274,
+      0.9723,
+      0.3729,
+      0.0,
+      0.1243,
+      0.9766,
+      0.7664
+     ],
+     "score": 0.71199,
+     "split": "test",
+     "n_units": 83,
+     "qa_s": 1.29
+    },
+    "conversation_sample_64.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.0911217409638425,
+     "tious": [
+      0.2917,
+      0.9535,
+      0.8459,
+      0.0
+     ],
+     "score": 0.713668,
+     "split": "test",
+     "n_units": 64,
+     "qa_s": 0.93
+    },
+    "conversation_sample_66.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 1.8416785849414978,
+     "tious": [
+      0.9771,
+      0.3596,
+      0.0,
+      0.505
+     ],
+     "score": 0.676252,
+     "split": "test",
+     "n_units": 68,
+     "qa_s": 1.13
+    },
+    "conversation_sample_67.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.195619914298247,
+     "tious": [
+      0.9633,
+      0.4615,
+      0.0,
+      0.8671,
+      0.9375,
+      0.0,
+      0.9661
+     ],
+     "score": 0.759625,
+     "split": "test",
+     "n_units": 56,
+     "qa_s": 1.12
+    },
+    "conversation_sample_69.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 6,
+     "sum_tiou": 2.776804266985852,
+     "tious": [
+      1.0,
+      0.3953,
+      0.4203,
+      0.4136,
+      0.3526,
+      0.195
+     ],
+     "score": 0.67768,
+     "split": "test",
+     "n_units": 49,
+     "qa_s": 1.67
+    },
+    "conversation_sample_71.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 5,
+     "sum_tiou": 4.641232460128821,
+     "tious": [
+      0.9816,
+      0.9831,
+      0.8682,
+      0.9802,
+      0.8281
+     ],
+     "score": 0.916948,
+     "split": "dev",
+     "n_units": 63,
+     "qa_s": 1.02
+    },
+    "conversation_sample_75.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 4,
+     "sum_tiou": 2.6892927843358394,
+     "tious": [
+      0.9139,
+      0.3598,
+      0.8675,
+      0.548
+     ],
+     "score": 0.803394,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 0.8
+    },
+    "conversation_sample_77.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.968392060361958,
+     "tious": [
+      0.9699,
+      0.9769,
+      0.1928,
+      0.988,
+      0.9767,
+      0.864,
+      0.0
+     ],
+     "score": 0.825862,
+     "split": "test",
+     "n_units": 55,
+     "qa_s": 1.24
+    },
+    "conversation_sample_79.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 1.7396169597687292,
+     "tious": [
+      0.661,
+      0.0,
+      0.5857,
+      0.4929,
+      0.0
+     ],
+     "score": 0.608754,
+     "split": "dev",
+     "n_units": 89,
+     "qa_s": 1.78
+    },
+    "conversation_sample_82.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 4,
+     "sum_tiou": 0.31175059952038375,
+     "tious": [
+      0.0,
+      0.0,
+      0.3118,
+      0.0
+     ],
+     "score": 0.406763,
+     "split": "dev",
+     "n_units": 53,
+     "qa_s": 2.07
+    },
+    "conversation_sample_84.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 7,
+     "sum_tiou": 4.181605451495125,
+     "tious": [
+      0.9398,
+      0.4364,
+      0.5862,
+      0.9804,
+      0.0,
+      0.2471,
+      0.9919
+     ],
+     "score": 0.758423,
+     "split": "dev",
+     "n_units": 98,
+     "qa_s": 1.74
+    },
+    "conversation_sample_86.mp3": {
+     "n": 10,
+     "correct": 9,
+     "n_yes": 3,
+     "sum_tiou": 2.0637855819011452,
+     "tious": [
+      0.1911,
+      0.9971,
+      0.8756
+     ],
+     "score": 0.772757,
+     "split": "test",
+     "n_units": 71,
+     "qa_s": 1.03
+    },
+    "conversation_sample_90.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 5,
+     "sum_tiou": 3.8545322793148875,
+     "tious": [
+      0.56,
+      0.9333,
+      0.4659,
+      0.962,
+      0.9333
+     ],
+     "score": 0.862544,
+     "split": "dev",
+     "n_units": 44,
+     "qa_s": 1.59
+    },
+    "conversation_sample_95.mp3": {
+     "n": 10,
+     "correct": 10,
+     "n_yes": 3,
+     "sum_tiou": 1.248649228903856,
+     "tious": [
+      0.293,
+      0.0773,
+      0.8783
+     ],
+     "score": 0.64973,
+     "split": "test",
+     "n_units": 51,
+     "qa_s": 1.31
+    }
+   },
+   "cli": {
+    "all": "{\"score\": 0.7738, \"accuracy\": 0.9871, \"tiou\": 0.6316, \"tiou_yes\": 0.6399, \"n\": 310, \"positive\": 0.987, \"hard_negative\": 0.991, \"off_topic\": 0.977}",
+    "dev": "{\"score\": 0.7758, \"accuracy\": 0.9867, \"tiou\": 0.6353, \"tiou_yes\": 0.6431, \"n\": 150, \"positive\": 0.988, \"hard_negative\": 1.0, \"off_topic\": 0.952}",
+    "test": "{\"score\": 0.7715, \"accuracy\": 0.9875, \"tiou\": 0.6275, \"tiou_yes\": 0.6363, \"n\": 160, \"positive\": 0.986, \"off_topic\": 1.0, \"hard_negative\": 0.985}"
+   },
+   "latency_s": {
+    "mean": 1.4316975839676396,
+    "max": 2.4680662155151367,
+    "p95": 2.0947725772857666
+   },
+   "deadline_misses": 0,
+   "src_counts": {
+    "llm": 310
+   },
+   "units_mean": 58.354838709677416,
+   "all": {
+    "score": 0.7738,
+    "accuracy": 0.9871,
+    "tiou": 0.6316,
+    "tiou_yes": 0.6399,
+    "n": 310,
+    "positive": 0.987,
+    "hard_negative": 0.991,
+    "off_topic": 0.977
+   },
+   "dev": {
+    "score": 0.7758,
+    "accuracy": 0.9867,
+    "tiou": 0.6353,
+    "tiou_yes": 0.6431,
+    "n": 150,
+    "positive": 0.988,
+    "hard_negative": 1.0,
+    "off_topic": 0.952
+   },
+   "test": {
+    "score": 0.7715,
+    "accuracy": 0.9875,
+    "tiou": 0.6275,
+    "tiou_yes": 0.6363,
+    "n": 160,
+    "positive": 0.986,
+    "off_topic": 1.0,
+    "hard_negative": 0.985
+   }
+  }
+ },
+ "md5": {
+  "offline_eval.py": "adb1f4547de7cbf509bf63161563c574",
+  "spans.py": "b3f6b09995d239cdc386f99e6d8c5b9d",
+  "pipeline.py": "f228810ee7b3c2628c3e349f9137d8b9"
+ },
+ "llm_model": "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+ "elapsed_s": 174.83137106895447
+}

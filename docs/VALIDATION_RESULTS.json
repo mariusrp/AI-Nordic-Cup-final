@@ -1,0 +1,65 @@
+{
+  "medical-appointment-4578f34b574445979fad3e6b9d3aec0f": {
+    "case": "medical-appointment",
+    "queue_id": "4578f34b574445979fad3e6b9d3aec0f",
+    "attempt": {
+      "submitted_at": "2026-09-20T11:34:13.447335+00:00",
+      "started_at": "2026-09-20T11:34:13.591182+00:00",
+      "finished_at": "2026-09-20T11:35:42.755749+00:00",
+      "service_url": "https://5g74a0atgzlxwf-9054.proxy.runpod.net/predict",
+      "score": 0.7794808113326157,
+      "errors": []
+    },
+    "wall_seconds": 89.164567
+  },
+  "drone-flyby-ccda8b4eeaed421087ffdbd8367b6bad": {
+    "case": "drone-flyby",
+    "queue_id": "ccda8b4eeaed421087ffdbd8367b6bad",
+    "attempt": {
+      "submitted_at": "2026-09-20T11:31:32.833316+00:00",
+      "started_at": "2026-09-20T11:31:33.229767+00:00",
+      "finished_at": "2026-09-20T11:32:57.806018+00:00",
+      "service_url": "http://194.68.245.26:22174/predict",
+      "score": 0.5430121386792103,
+      "errors": []
+    },
+    "wall_seconds": 84.576251
+  },
+  "drone_delivery": {
+    "frames_answered": 241,
+    "expected_frames": 249,
+    "missing_frames": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      127,
+      128,
+      183
+    ],
+    "server_median_ms": 70,
+    "server_max_ms": 141,
+    "source_log": "/workspace/logs/ft_arm_FINAL2.log",
+    "window_utc": [
+      "2026-09-20 11:31:33",
+      "2026-09-20 11:32:58"
+    ],
+    "readiness": "below frame-delivery target"
+  },
+  "medical_training_39": {
+    "conversations": 39,
+    "errors": 0,
+    "mean_seconds": 4.650769230769231,
+    "p95_seconds": 6.35,
+    "max_seconds": 7.97,
+    "questions": 390,
+    "yes_without_span": 0
+  },
+  "survival_pending": {
+    "queue_id": "f3f6403582bd4812a26bf2dd12466515",
+    "queued_at": "2026-09-20T11:40:29.055250+00:00",
+    "state": "queued",
+    "final_submission": false
+  }
+}

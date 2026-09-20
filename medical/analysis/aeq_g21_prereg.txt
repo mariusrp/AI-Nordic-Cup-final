@@ -1,0 +1,17 @@
+APerquesti-g2-1 pre-registration (committed before any new LLM call / scoring)
+
+Run: aeq_run.py run --reps 2 --arms eqa,aeq,aeqmc (bg job aeqconf-g21, POD=gpu, light client of :8001),
+     arms interleaved per conversation, order alternating; eqa shared by both contrasts.
+Pool: new 2 reps + g1-2 rec.json (/workspace/med-aeq-g12/medical/out/aeq_full/rec.json). Valid because
+      pipeline.py/spans.py/offline_eval.py md5 were checked equal to main (g1-2 pod copy == 305e01d == this
+      branch before the aeqmc addition; eqa/aeq prompts byte-identical), and the same vLLM :8001 process serves
+      (started 09:55, g1-2 ran 18:25). Checked again from the run's _meta.cfg before pooling. Old thresholds NOT reused.
+PRIMARY contrast: aeq vs eqa at fixed PROD_THR 0.2315 (yes_bias 1.2), pooled 4 paired reps, conversation-clustered
+      se, reported per half (dev 15 / test 16 conversations) and all 31, plus uq better/worse on gold-yes tIoU.
+SECONDARY: dev-picked threshold per arm (THR_GRID 0.15-0.40), same contrast; aeqmc vs eqa (fresh reps only).
+DECISION (primary):
+  - merge as default iff z > 2 on BOTH dev and test -> deploy_check, one e2e timing run, one portal validation.
+  - near-pass iff all-31 z > 2.5 and both halves positive but a half < 2 se -> record, escalate to meta-reviewer,
+    no portal validation, no more reps.
+  - otherwise: not accepted (record; keep as promising or discard by magnitude).
+Sanity gate (abort early): after rep 0, aeq fixed-thr paired mean < -0.01, accuracy drop > 0.01, or parse failures.

@@ -1,0 +1,171 @@
+--- pipeline.py	2026-09-19 13:59:14
++++ pipeline_new.py	2026-09-19 14:08:17
+@@ -118,6 +118,22 @@
+     # vote (ties -> the greedy reply). P(yes) always comes from the greedy reply. 1 = off (production).
+     'sc_n': _env('MED_SC_N', 1, int),
+     'sc_t': _env('MED_SC_T', 0.7, float),
++    # Two-pass structured evidence selection (n3 M2, Sat 19 Sep). Runs AFTER the production reply, only for
++    # questions the production pass answers yes (P(yes) after yes_bias); the yes/no answer and P(yes) are
++    # always the production pass's. 0 = off (production).
++    #   1 = pass 1 lists ALL candidate unit ids that mention the questioned fact (vLLM structured output,
++    #       response_format json_schema with an enum of the valid ids), union with the production citation,
++    #       then pass 2 picks the evidence unit(s) with explicit annotation rules + hard examples;
++    #   2 = pass 2 only, candidates = the production citation's clusters (cheap; fires when >= 2 clusters).
++    # Pass 2 output replaces the cited ids, so the downstream span rules (onset, coverage-next) are unchanged.
++    'two_pass': _env('MED_TWO_PASS', 0, int),
++    'tp_max_cands': _env('MED_TP_MAX_CANDS', 8, int),
++    'tp_examples': _env('MED_TP_EXAMPLES', 1, int),     # 0 = rules only, no hard examples in pass 2
++    'tp_min_cands': _env('MED_TP_MIN_CANDS', 2, int),   # pass 2 runs only with >= this many candidate units
++    # 'pick' = the span is the unit(s) pass 2 picked; 'cluster' = when the pick lies inside one of the production
++    # citation's clusters, keep that whole cluster (pass 2 then only chooses the LOCATION, the extent stays
++    # production's; gold spans cover 2+ islands in 63/195 cases).
++    'tp_extent': _env('MED_TP_EXTENT', 'pick'),
+     # Clause snap (fable session): when the verbatim quote aligns, widen the span to the clause unit(s)
+     # (commas / pauses > span_clause_pause s) it overlaps, i.e. between the tight quote and the whole
+     # cited sentence. 0 = off.
+@@ -436,13 +452,15 @@
+         r.raise_for_status()
+         return r.json()['data'][0]['id']
+ 
+-    def chat(self, messages, max_tokens=None, timeout=None, logprobs=True) -> dict:
++    def chat(self, messages, max_tokens=None, timeout=None, logprobs=True, extra: dict = None) -> dict:
+         body = {'model': self.model, 'messages': messages, 'temperature': 0.0,
+                 'max_tokens': max_tokens or CFG['llm_max_tokens'],
+                 'chat_template_kwargs': {'enable_thinking': bool(CFG['llm_think'])}}
+         if logprobs:
+             body['logprobs'] = True
+             body['top_logprobs'] = 10
++        if extra:
++            body.update(extra)   # e.g. response_format (vLLM structured outputs)
+         r = self.s.post(self.url + '/chat/completions', json=body, timeout=timeout or CFG['llm_timeout'])
+         r.raise_for_status()
+         return r.json()['choices'][0]
+@@ -544,6 +562,112 @@
+ # Orchestration
+ # --------------------------------------------------------------------------- #
+ 
++
++# --------------------------------------------------------------------------- #
++# Two-pass structured evidence selection (n3 M2)
++# --------------------------------------------------------------------------- #
++
++TP1_SYSTEM = """You read a numbered transcript of a recorded consultation between a doctor and a patient (one spoken clip per line, speakers not labelled) and a yes/no question about it. List the ids of ALL lines that mention the fact the question asks about, in any form: the first vague mention, the doctor's finding or statement, later restatements, conclusions and confirmations of it. Do not list lines about other facts. Include a bare confirmation line ("Yes.", "Right.") only together with the line it confirms. Reply with JSON only: {"ids": [..]} with the ids in transcript order, at most 8; {"ids": []} if the fact is never mentioned."""
++
++TP2_RULES = """You choose the evidence clip for a yes/no question about a recorded consultation between a doctor and a patient. The transcript is split into numbered lines (one spoken clip each; speakers are not labelled). You are given the candidate lines that mention the fact. Pick the line that STATES the fact, following these annotation rules:
++1. The evidence line itself states the fact: a clause with a subject and a verb that asserts the finding, plan, symptom or event. A line that only raises the topic, asks about it or hints at it is not evidence.
++2. When the fact is stated more than once, the LATER, more explicit restatement wins over a vague or brief first mention: the doctor's finding wins over the patient's first complaint, and a conclusion or summary near the end wins over the first time the fact comes up.
++3. A bare confirmation ("Yes.", "Right.", "Exactly.") is not evidence on its own; pick the line whose content it confirms.
++4. Keep it minimal: one line, or two adjacent lines only when the statement runs across both.
++Reply with JSON only: {"evidence": [id]} or {"evidence": [id, next_id]}."""
++
++TP2_EXAMPLES = """
++
++Examples (candidate lines shown; the answer follows).
++Question: Does the patient want the skin changes removed?
++Candidates:
++[11] I want them gone.
++[32] then can we get on with removing them
++[42] I would still rather have them off than keep catching them.
++{"evidence": [42]}
++(42 is the later, explicit restatement; 11 is a brief first mention and 32 is a request phrased as a question.)
++Question: Was a skin wart found under the right breast?
++Candidates:
++[8] One under my right breast,
++[13] The one under your right breast is a skin wart,
++{"evidence": [13]}
++(8 only raises the topic; 13 states the finding.)
++Question: Is an appointment for the removal going to be arranged?
++Candidates:
++[34] I will arrange an appointment for the removal
++[44] Then the appointment for removal is the plan.
++{"evidence": [44]}
++(the later conclusion restates the plan.)"""
++
++
++def tp2_system() -> str:
++    return TP2_RULES + (TP2_EXAMPLES if CFG['tp_examples'] else '')
++
++
++def _tp_schema(valid: List[int], key: str, max_items: int) -> dict:
++    """OpenAI-style response_format for vLLM structured outputs: {key: [ids from the enum]}."""
++    schema = {'type': 'object',
++              'properties': {key: {'type': 'array', 'items': {'type': 'integer', 'enum': [int(i) for i in valid]},
++                                   'maxItems': int(max_items)}},
++              'required': [key], 'additionalProperties': False}
++    return {'response_format': {'type': 'json_schema',
++                                'json_schema': {'name': 'evidence_' + key, 'schema': schema, 'strict': True}}}
++
++
++def _tp_parse(text: str, key: str, valid: set) -> List[int]:
++    try:
++        obj = json.loads(re.sub(r'<think>.*?</think>', '', text or '', flags=re.S).strip())
++        out = []
++        for i in obj.get(key) or []:
++            if isinstance(i, int) and i in valid and i not in out:
++                out.append(i)
++        return out
++    except Exception:
++        return []
++
++
++def two_pass_ids(llm, units: List[dict], q: str, ids: List[int], timeout: float) -> Tuple[List[int], str]:
++    """Two-pass evidence selection; returns (new ids, debug note). Falls back to the production ids on any
++    failure. Mode 1: pass 1 (candidate listing, structured) + pass 2 (selection with annotation rules).
++    Mode 2: pass 2 only over the production citation's clusters."""
++    n = len(units)
++    prod = [i for i in ids if isinstance(i, int) and 0 <= i < n]
++    mode = CFG['two_pass']
++    cands: List[int] = []
++    note = ''
++    if mode == 1:
++        msgs = [{'role': 'system', 'content': TP1_SYSTEM}, {'role': 'user', 'content': build_user(units, q)}]
++        ch = llm.chat(msgs, max_tokens=80, timeout=timeout, logprobs=False,
++                      extra=_tp_schema(list(range(n)), 'ids', CFG['tp_max_cands']))
++        cands = _tp_parse((ch.get('message') or {}).get('content') or '', 'ids', set(range(n)))
++        note = f'p1={cands}'
++        for i in prod:              # never lose the production citation
++            if i not in cands:
++                cands.append(i)
++        cands = sorted(cands)[: max(CFG['tp_max_cands'], len(prod))]
++    else:
++        cands = sorted(set(prod))
++        if len(S.clusters(cands, 2)) < 2:
++            return ids, note + ' p2=skip(1 cluster)'
++    if len(cands) < CFG['tp_min_cands'] or not cands:
++        return ids, note + ' p2=skip(few)'
++    cand_lines = '\n'.join(f"[{i}] {units[i]['text']}" for i in cands)
++    user = build_user(units, q) + '\n\nCandidates:\n' + cand_lines
++    msgs = [{'role': 'system', 'content': tp2_system()}, {'role': 'user', 'content': user}]
++    ch = llm.chat(msgs, max_tokens=30, timeout=timeout, logprobs=False, extra=_tp_schema(cands, 'evidence', 2))
++    pick = _tp_parse((ch.get('message') or {}).get('content') or '', 'evidence', set(cands))
++    if not pick:
++        return ids, note + ' p2=fail'
++    pick = sorted(pick)
++    if len(pick) == 2 and pick[1] - pick[0] > 1:   # not adjacent: keep the later one (rule 2)
++        pick = [pick[1]]
++    if CFG['tp_extent'] == 'cluster':
++        for c in S.clusters(prod, 2):
++            if any(i in c for i in pick):
++                return list(c), note + f' p2={pick} ext={list(c)}'
++    return pick, note + f' p2={pick}'
++
++
+ class Answerer:
+     def __init__(self, backend: str = 'llm'):
+         self.backend = backend
+@@ -628,6 +752,15 @@
+                 ids = _vote_ids(cands, len(units)) if cands else ids
+             except Exception as e:
+                 log.warning('self-consistency sampling failed (%s); greedy citation kept', e)
++        if CFG['two_pass'] and units and p is not None:
++            pp = min(max(p, 1e-6), 1 - 1e-6)
++            if math.log(pp / (1 - pp)) + CFG['yes_bias'] > 0:   # the production verdict is yes
++                try:
++                    ids, note = two_pass_ids(self.llm, units, q, ids, timeout)
++                    text += '\n[TP]' + note
++                except Exception as e:
++                    log.warning('two-pass selection failed (%s); production citation kept', e)
++                    text += '\n[TP] error ' + str(e)[:80]
+         return p, ids, quote, text
+ 
+     def answer(self, tx: dict, questions: List[str], deadline: float) -> List[dict]:

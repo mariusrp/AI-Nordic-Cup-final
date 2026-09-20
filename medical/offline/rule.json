@@ -1,0 +1,12 @@
+{
+ "ds": 0.0,
+ "de": -0.02,
+ "onset": 1,
+ "onset_ds": -0.04,
+ "onset_in_word": 1,
+ "onset_fwd": 1.0,
+ "onset_back": 0.05,
+ "gap": 0.15,
+ "oracle_range_tiou": 0.890896267897565,
+ "fitted_on": "39 training conversations, 195 gold-yes, 19 Sep 2026"
+}

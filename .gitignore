@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+runs/
+*.pt
+*.onnx
+*.mp3
+*.png
+*.log
+secrets*
+.claude/worktrees/
+
+# Local operator credentials and generated validation reports
+.env
+.env.*
+*.pem
+*.key
+operator-results/
+.DS_Store

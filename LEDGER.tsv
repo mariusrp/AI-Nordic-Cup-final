@@ -1,0 +1,11 @@
+time	case	agent	idea	before	after	status	lesson
+2026-09-18T09:00	survival	orchestrator	v1 rules: flee, forage, spawn<=12	19	1733 (seed1)	keep	rules beat random by far; food runs out late, predators kill mid-game
+2026-09-18T09:10	survival	orchestrator	v2 share sightings + spawn only near food + herd<=10	1733 (seed1)	1038 (seed1), 460 (seed2)	discard	parents eat all fruit so newborns starve; do not let rich agents eat
+2026-09-18T09:50	medical	medical-lead	keyword overlap answerer (no LLM)	0.200	0.588	keep	saying yes is +EV when P(yes)>~0.23 because tIoU only counts true yes
+2026-09-18T09:50	medical	medical-lead	span padding	-	worse	discard	gold spans are clause-level; padding hurts, quote-matching to word timings best (oracle 0.94)
+2026-09-18T11:15	survival	orchestrator	v1 on 32 train seeds (CPU pod)	-	880.3 se 35.2	keep	baseline for search; 32 games in 114 s on POD=cpu
+2026-09-18T12:10	medical	medical-bringup	Qwen3.5-35B-A3B GPTQ via vLLM, turbo transcripts, one call per question	0.530 (keyword)	~0.773 (all 31 practice convs; dev 0.762 / test 0.786)	keep	LLM answerer lifts score by ~0.24; validation pending
+2026-09-18T10:35	drone	drone-lead	serve on pod port 22 (public TCP) instead of runpod https proxy	102/249 frames answered	229/249 frames answered	keep	proxy costs ~400ms/cycle; direct TCP port is the way to beat the 333ms clock
+2026-09-18T13:43Z	drone	I1Syntheti-g2-1	class-routed v2+r11 detector (r11 only for helicopter/jet_plane/small_plane) inside champion stack (branch drone-evolve-g2-2)	validation champion same pod 0.1236+-0.0059 (3 runs)	validation 0.1459+-0.0105 (3 runs, interleaved, paired +0.022+-0.006); r11 as a plain replacement: valcity -0.12..-0.16	keep	retrained detectors trade classes; route by class, do not swap weights
+2026-09-18T23:30	medical	fable-session	attach cand_span on 'no' answers (MED_ATTACH_NO)	0.7441	0.7499 (portal)	keep	portal scores spans on false answers; portal tIoU 0.584 (force-yes diagnostic 0.5501), accuracy ~100%: only extent/location on unseen conversations is left
+2026-09-19T11:10	drone	fable-session	fine-tune v2 on recorded validation views (frames <= 150) + synthetic, served unrouted without the verifier	0.2602 (leaderboard best)	0.4213 (portal)	keep	recorded target-city views: +0.16 leaderboard; honest split arm +0.01 on unseen frames

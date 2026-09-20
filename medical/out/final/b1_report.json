@@ -1,0 +1,423 @@
+{
+ "reps": 3,
+ "n_conv": 39,
+ "arms": {
+  "base": {
+   "rules_v": 3,
+   "sc_n": 1,
+   "sc_mode": "cluster",
+   "sc_agree": 2,
+   "vc": 0
+  },
+  "R4": {
+   "rules_v": 4,
+   "sc_n": 1,
+   "sc_mode": "cluster",
+   "sc_agree": 2,
+   "vc": 0
+  },
+  "SC3": {
+   "rules_v": 3,
+   "sc_n": 3,
+   "sc_mode": "island",
+   "sc_agree": 2,
+   "vc": 0
+  },
+  "VC": {
+   "rules_v": 3,
+   "sc_n": 1,
+   "sc_mode": "cluster",
+   "sc_agree": 2,
+   "vc": 1
+  }
+ },
+ "summary": {
+  "base": {
+   "all": {
+    "reps": [
+     0.7895,
+     0.7876,
+     0.7929
+    ],
+    "mean": 0.79
+   },
+   "dev": {
+    "reps": [
+     0.8157,
+     0.8129,
+     0.8241
+    ],
+    "mean": 0.8176
+   },
+   "test": {
+    "reps": [
+     0.7657,
+     0.7646,
+     0.7646
+    ],
+    "mean": 0.765
+   },
+   "acc": 0.9897,
+   "tiou": 0.6569
+  },
+  "R4": {
+   "all": {
+    "reps": [
+     0.79,
+     0.7878,
+     0.7908
+    ],
+    "mean": 0.7895
+   },
+   "dev": {
+    "reps": [
+     0.8206,
+     0.8163,
+     0.8223
+    ],
+    "mean": 0.8197
+   },
+   "test": {
+    "reps": [
+     0.7621,
+     0.7617,
+     0.7621
+    ],
+    "mean": 0.762
+   },
+   "acc": 0.9897,
+   "tiou": 0.656
+  },
+  "SC3": {
+   "all": {
+    "reps": [
+     0.7935,
+     0.7878,
+     0.7924
+    ],
+    "mean": 0.7912
+   },
+   "dev": {
+    "reps": [
+     0.8279,
+     0.8241,
+     0.8242
+    ],
+    "mean": 0.8254
+   },
+   "test": {
+    "reps": [
+     0.7622,
+     0.7548,
+     0.7634
+    ],
+    "mean": 0.7601
+   },
+   "acc": 0.9889,
+   "tiou": 0.6595
+  },
+  "VC": {
+   "all": {
+    "reps": [
+     0.788,
+     0.7913,
+     0.7926
+    ],
+    "mean": 0.7906
+   },
+   "dev": {
+    "reps": [
+     0.8172,
+     0.8249,
+     0.8205
+    ],
+    "mean": 0.8209
+   },
+   "test": {
+    "reps": [
+     0.7614,
+     0.7606,
+     0.7672
+    ],
+    "mean": 0.7631
+   },
+   "acc": 0.9897,
+   "tiou": 0.6579
+  }
+ },
+ "paired_vs_base": {
+  "R4": {
+   "all": {
+    "n": 39,
+    "mean": -0.0005,
+    "se": 0.0027,
+    "ci95": [
+     -0.0061,
+     0.0045
+    ],
+    "p_positive": 0.413,
+    "conv_better": 4,
+    "conv_worse": 5
+   },
+   "dev": {
+    "n": 19,
+    "mean": 0.0015,
+    "se": 0.0039,
+    "ci95": [
+     -0.0049,
+     0.0095
+    ],
+    "p_positive": 0.639,
+    "conv_better": 3,
+    "conv_worse": 3
+   },
+   "test": {
+    "n": 20,
+    "mean": -0.0024,
+    "se": 0.0039,
+    "ci95": [
+     -0.0109,
+     0.0041
+    ],
+    "p_positive": 0.259,
+    "conv_better": 1,
+    "conv_worse": 2
+   },
+   "per_conv": {
+    "conversation_sample_10.mp3": 0.0,
+    "conversation_sample_17.mp3": 0.0,
+    "conversation_sample_18.mp3": 0.0,
+    "conversation_sample_19.mp3": 0.0,
+    "conversation_sample_20.mp3": -0.0326,
+    "conversation_sample_23.mp3": 0.0081,
+    "conversation_sample_33.mp3": 0.0,
+    "conversation_sample_37.mp3": -0.0697,
+    "conversation_sample_39.mp3": -0.0104,
+    "conversation_sample_4.mp3": 0.0,
+    "conversation_sample_42.mp3": 0.0,
+    "conversation_sample_43.mp3": 0.0,
+    "conversation_sample_47.mp3": 0.0,
+    "conversation_sample_48.mp3": 0.0,
+    "conversation_sample_5.mp3": 0.0,
+    "conversation_sample_50.mp3": 0.0,
+    "conversation_sample_52.mp3": 0.0,
+    "conversation_sample_54.mp3": 0.0,
+    "conversation_sample_55.mp3": 0.0,
+    "conversation_sample_56.mp3": -0.0097,
+    "conversation_sample_57.mp3": 0.0,
+    "conversation_sample_6.mp3": 0.0,
+    "conversation_sample_63.mp3": 0.0,
+    "conversation_sample_64.mp3": -0.0114,
+    "conversation_sample_66.mp3": 0.0,
+    "conversation_sample_67.mp3": 0.015,
+    "conversation_sample_69.mp3": 0.0,
+    "conversation_sample_70.mp3": 0.0,
+    "conversation_sample_71.mp3": 0.06,
+    "conversation_sample_75.mp3": 0.0,
+    "conversation_sample_77.mp3": 0.0,
+    "conversation_sample_79.mp3": 0.0305,
+    "conversation_sample_81.mp3": 0.0,
+    "conversation_sample_82.mp3": 0.0,
+    "conversation_sample_84.mp3": 0.0,
+    "conversation_sample_86.mp3": 0.0,
+    "conversation_sample_90.mp3": 0.0,
+    "conversation_sample_92.mp3": 0.0,
+    "conversation_sample_95.mp3": 0.0
+   },
+   "sign_test": {
+    "touched": 13,
+    "better": 5,
+    "worse": 7,
+    "mean_dtiou_on_touched": -0.0129
+   }
+  },
+  "SC3": {
+   "all": {
+    "n": 39,
+    "mean": 0.0012,
+    "se": 0.003,
+    "ci95": [
+     -0.0039,
+     0.008
+    ],
+    "p_positive": 0.635,
+    "conv_better": 8,
+    "conv_worse": 10
+   },
+   "dev": {
+    "n": 19,
+    "mean": 0.0067,
+    "se": 0.0055,
+    "ci95": [
+     -0.0019,
+     0.0186
+    ],
+    "p_positive": 0.914,
+    "conv_better": 6,
+    "conv_worse": 5
+   },
+   "test": {
+    "n": 20,
+    "mean": -0.004,
+    "se": 0.0024,
+    "ci95": [
+     -0.009,
+     0.0003
+    ],
+    "p_positive": 0.034,
+    "conv_better": 2,
+    "conv_worse": 5
+   },
+   "per_conv": {
+    "conversation_sample_10.mp3": 0.0,
+    "conversation_sample_17.mp3": -0.005,
+    "conversation_sample_18.mp3": 0.0,
+    "conversation_sample_19.mp3": -0.0216,
+    "conversation_sample_20.mp3": 0.0,
+    "conversation_sample_23.mp3": 0.0923,
+    "conversation_sample_33.mp3": 0.0,
+    "conversation_sample_37.mp3": 0.0,
+    "conversation_sample_39.mp3": 0.0408,
+    "conversation_sample_4.mp3": -0.0166,
+    "conversation_sample_42.mp3": -0.0136,
+    "conversation_sample_43.mp3": 0.0119,
+    "conversation_sample_47.mp3": 0.0,
+    "conversation_sample_48.mp3": -0.0065,
+    "conversation_sample_5.mp3": -0.0349,
+    "conversation_sample_50.mp3": -0.0096,
+    "conversation_sample_52.mp3": 0.0,
+    "conversation_sample_54.mp3": 0.0,
+    "conversation_sample_55.mp3": 0.0,
+    "conversation_sample_56.mp3": -0.004,
+    "conversation_sample_57.mp3": -0.02,
+    "conversation_sample_6.mp3": 0.0,
+    "conversation_sample_63.mp3": 0.0,
+    "conversation_sample_64.mp3": -0.0146,
+    "conversation_sample_66.mp3": 0.0064,
+    "conversation_sample_67.mp3": 0.0075,
+    "conversation_sample_69.mp3": 0.0,
+    "conversation_sample_70.mp3": 0.0,
+    "conversation_sample_71.mp3": 0.0067,
+    "conversation_sample_75.mp3": 0.0,
+    "conversation_sample_77.mp3": 0.0,
+    "conversation_sample_79.mp3": 0.0102,
+    "conversation_sample_81.mp3": 0.0,
+    "conversation_sample_82.mp3": 0.0,
+    "conversation_sample_84.mp3": 0.0182,
+    "conversation_sample_86.mp3": 0.0,
+    "conversation_sample_90.mp3": 0.0,
+    "conversation_sample_92.mp3": 0.0,
+    "conversation_sample_95.mp3": 0.0
+   },
+   "sign_test": {
+    "touched": 25,
+    "better": 13,
+    "worse": 11,
+    "mean_dtiou_on_touched": 0.0202
+   }
+  },
+  "VC": {
+   "all": {
+    "n": 39,
+    "mean": 0.0017,
+    "se": 0.0028,
+    "ci95": [
+     -0.0039,
+     0.0069
+    ],
+    "p_positive": 0.715,
+    "conv_better": 7,
+    "conv_worse": 3
+   },
+   "dev": {
+    "n": 19,
+    "mean": 0.0049,
+    "se": 0.0051,
+    "ci95": [
+     -0.0052,
+     0.0143
+    ],
+    "p_positive": 0.836,
+    "conv_better": 5,
+    "conv_worse": 2
+   },
+   "test": {
+    "n": 20,
+    "mean": -0.0014,
+    "se": 0.0025,
+    "ci95": [
+     -0.0069,
+     0.002
+    ],
+    "p_positive": 0.351,
+    "conv_better": 2,
+    "conv_worse": 1
+   },
+   "per_conv": {
+    "conversation_sample_10.mp3": 0.0,
+    "conversation_sample_17.mp3": 0.0557,
+    "conversation_sample_18.mp3": 0.0,
+    "conversation_sample_19.mp3": 0.0,
+    "conversation_sample_20.mp3": 0.0,
+    "conversation_sample_23.mp3": -0.0561,
+    "conversation_sample_33.mp3": 0.0,
+    "conversation_sample_37.mp3": -0.0472,
+    "conversation_sample_39.mp3": 0.0207,
+    "conversation_sample_4.mp3": 0.0,
+    "conversation_sample_42.mp3": 0.0299,
+    "conversation_sample_43.mp3": 0.0,
+    "conversation_sample_47.mp3": 0.0,
+    "conversation_sample_48.mp3": 0.0,
+    "conversation_sample_5.mp3": 0.0,
+    "conversation_sample_50.mp3": 0.0,
+    "conversation_sample_52.mp3": 0.0,
+    "conversation_sample_54.mp3": 0.0,
+    "conversation_sample_55.mp3": 0.0,
+    "conversation_sample_56.mp3": 0.0097,
+    "conversation_sample_57.mp3": 0.0,
+    "conversation_sample_6.mp3": 0.0,
+    "conversation_sample_63.mp3": 0.0,
+    "conversation_sample_64.mp3": 0.0099,
+    "conversation_sample_66.mp3": 0.0,
+    "conversation_sample_67.mp3": -0.0075,
+    "conversation_sample_69.mp3": 0.0,
+    "conversation_sample_70.mp3": 0.0,
+    "conversation_sample_71.mp3": 0.04,
+    "conversation_sample_75.mp3": 0.0,
+    "conversation_sample_77.mp3": 0.0,
+    "conversation_sample_79.mp3": 0.0102,
+    "conversation_sample_81.mp3": 0.0,
+    "conversation_sample_82.mp3": 0.0,
+    "conversation_sample_84.mp3": 0.0,
+    "conversation_sample_86.mp3": 0.0,
+    "conversation_sample_90.mp3": 0.0,
+    "conversation_sample_92.mp3": 0.0,
+    "conversation_sample_95.mp3": 0.0
+   },
+   "sign_test": {
+    "touched": 14,
+    "better": 7,
+    "worse": 4,
+    "mean_dtiou_on_touched": 0.0139
+   }
+  }
+ },
+ "latency_s": {
+  "base": {
+   "mean": 1.5102855833167703,
+   "max": 3.700427770614624
+  },
+  "R4": {
+   "mean": 1.574530350856292,
+   "max": 3.1385679244995117
+  },
+  "SC3": {
+   "mean": 3.25056403518742,
+   "max": 5.128600120544434
+  },
+  "VC": {
+   "mean": 1.9024598170549443,
+   "max": 2.9828991889953613
+  }
+ }
+}

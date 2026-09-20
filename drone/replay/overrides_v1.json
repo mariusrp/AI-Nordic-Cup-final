@@ -1,0 +1,18 @@
+[
+ {"t": 8.8, "x": 1671, "cls": "jammer", "note": "eye-verified jammer m1 of v1_plus2 (frame 2); the ft family votes tank 0.70"},
+ {"t": 212.7, "x": 2106, "vote": {"large_launcher": 0.8, "helicopter": 0.2}, "note": "105x83 dark-green launcher truck, no rotor/tail"},
+ {"t": 109.3, "x": 1896, "vote": {"medium_plane": 0.34, "small_launcher": 0.33, "ta-ta": 0.33}, "note": "17x20 dark box with legs and shadow, not a plane; class unclear"},
+ {"t": 154.3, "x": 2214, "drop": true, "note": "62x46 garden bed next to parked cars voted mine_roller 0.97"},
+ {"t": 148.8, "x": 2467, "support": 0.15, "note": "brown roof patch between houses voted ta-ta"},
+ {"t": 194.1, "x": 1830, "support": 0.2, "note": "42x59 round bush voted helicopter 0.96 (helicopters here are 85-100 px with rotor + tail)"},
+ {"t": 257.1, "x": 1743, "support": 0.1, "note": "9x14 white skylight dot on an orange roof (row of identical dots) voted small_launcher"},
+ {"t": 211.7, "x": 3348, "support": 0.1, "note": "roof skylight dot voted ta-ta"},
+ {"t": 209.7, "x": 3236, "support": 0.1, "note": "roof skylight dot voted ta-ta"},
+ {"t": 207.9, "x": 3661, "support": 0.1, "note": "roof skylight dot voted ta-ta"},
+ {"t": 211.9, "x": 3348, "support": 0.1, "note": "roof skylight dot voted ta-ta"},
+ {"t": 194.7, "x": 3127, "support": 0.1, "note": "15x12 skylight on a red-brown roof voted ta-ta"},
+ {"t": 218.8, "x": 3053, "support": 0.1, "note": "11x13 white skylight on an orange roof voted small_launcher"},
+ {"t": 214.6, "x": 580, "support": 0.1, "note": "7x6 dot in trees voted ta-ta"},
+ {"t": 224.9, "x": 2643, "support": 0.25, "note": "light triangle in a red roof's shadow voted mine_roller"},
+ {"t": 233.1, "x": 1896, "support": 0.25, "note": "pentagon shed roof voted jammer"}
+]

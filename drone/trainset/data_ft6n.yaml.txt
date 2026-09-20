@@ -1,0 +1,8 @@
+  8: small_launcher
+  9: small_plane
+  10: small_tower
+  11: ta-ta
+  12: tank
+  13: condor
+  14: jammer
+  15: spacecraft
